@@ -1,0 +1,16 @@
+<start>
+<head>
+<title>传统武侠RPG游戏 千年</title>
+<text>
+这是步入武林的第一步,想成为武林的主人吗?
+</text>
+</head>
+<command send='close'>关闭</command>
+<body>
+
+ 帮助你踏入武林作准备工作会得到向导的帮助,
+ 恭喜你踏入千年武林
+ 按F1会获得帮助
+
+</body>
+</start>

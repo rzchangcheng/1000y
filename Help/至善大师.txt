@@ -1,0 +1,10 @@
+<trade>
+<title>至善大师</title>
+<image name=z26 value=56>
+<text>
+ 拿熊胆30，老虎指甲100，熊掌200就给你武林绝世护体金钟罩！
+</text>
+<command send='close'>关闭</command>
+<command send="jinzhong">交换金钟罩</command>
+</trade>
+

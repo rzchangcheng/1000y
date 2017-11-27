@@ -1,0 +1,11 @@
+<q>
+<title>老板娘</title>
+<image name=z25 value=108>
+<text>
+ " 还没拿到?继续被这些家伙敲诈我的店也快关门了... "
+</text>
+<command send='close'></command>
+<command send='continue'>[继续]</command>
+<command send='giveup'>[放弃]</command>
+</q>
+

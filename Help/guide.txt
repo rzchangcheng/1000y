@@ -1,0 +1,23 @@
+<q1>
+<head>
+<title>千年介绍</title>
+<image name=z40 value=146>
+<text>
+初入武林吗?为了帮助你这样的新手!
+设有向导,有不懂的内容请点击我看详细说明
+</text>
+</head>
+<command send="close">关闭</command>
+<body>
+<a send="guide0"> 关于云端千年
+<a send="guide1"> 新手村的基本规则
+<a send="guide2"> 新手村的周边环境
+<a send="guide3"> 基本操作
+
+<a send="CurrentQuest"> 接受任务
+<a send="CompleteQuest"> 完成任务
+
+ 按F1可以看到更具体的说明 
+
+</body>
+</q1>

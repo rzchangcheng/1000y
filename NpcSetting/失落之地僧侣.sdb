@@ -1,0 +1,4 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,FALSE,,,,听说过失落之地吗？,,,,,1000,
+2,FALSE,,,,要想成功到达失落之地需要祭品,,,,,1500,
+3,TRUE,,,,在失落之地有非常强力的怪物,,,,,2500,

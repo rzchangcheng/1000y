@@ -1,0 +1,10 @@
+<trade>
+<title>北霸王</title>
+<image name=z1 value=13>
+<text>
+ 霸王剑名扬江湖,岂容你等小觑!
+</text>
+<command send="exit"> </command>
+<command send="npcstart">出招吧</command>
+</trade>
+

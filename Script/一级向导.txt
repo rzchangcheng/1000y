@@ -1,0 +1,95 @@
+unit 一级向导;
+
+interface
+
+function  GetToken (aStr, aToken, aSep : String) : String;
+function  CompareStr (aStr1, aStr2 : String) : Boolean;
+function  callfunc (aText: string): string;
+procedure print (aText: string);
+function  Random (aScope: integer): integer;
+function  Length (aText: string): integer;
+procedure Inc (aInt: integer);
+procedure Dec (aInt: integer);
+function  StrToInt (astr: string): integer;
+function  IntToStr (aInt: integer): string;
+procedure exit;
+
+procedure OnLeftClick (aStr : String);
+procedure OnGetResult (aStr : String);
+procedure OnApproach (aStr : String);
+procedure OnAway (aStr : String);
+
+implementation
+
+//procedure OnAway (aStr : String);
+//var
+//   Str : String;
+//   Race : Integer;
+//begin
+//   Str := callfunc ('getsenderrace');
+//   Race := StrToInt (Str);
+//   if Race = 1 then begin
+//      print ('say 我这里有好多合适新手的任务哦。');
+//      exit;
+//   end;
+//end;
+
+procedure OnApproach (aStr : String);
+var
+   Str, PowerLevel, Name : String;
+   Race, Lv : Integer;
+begin
+   Str := callfunc ('getsenderrace');
+   Race := StrToInt (Str);
+   if Race = 1 then begin
+      PowerLevel := callfunc ('getsendercurpowerlevel');  //境界等级
+      Lv := StrToInt (PowerLevel);
+      if Lv > 4 then begin
+         Name := callfunc ('getsendername');
+         Str := 'say ' + Name;
+         Str := Str + '，你的境界太高了，我还是送您出村吧。';
+         print (Str);
+         Str := 'movespace ' + Name;
+         Str := Str + ' user 1 662 66 300';
+         print (Str);
+         exit;
+      end;
+      exit;
+   end;
+end;
+
+procedure OnGetResult (aStr : String);
+var
+   Str, Name : String;
+begin
+   if aStr = 'close' then begin
+      exit;
+   end;
+   if aStr = 'CompleteQuest' then begin
+      //print ('say 您还没有接任何任务呢。');
+      Str := 'showwindow .\help\start.txt';
+      print (str);
+      exit;
+   end;
+   if aStr <> '' then begin
+      str := 'showwindow .\help\' + aStr;
+      Str := Str + '.txt';
+      print (str);
+   end;
+end;
+
+procedure OnLeftClick (aStr : String);
+var
+   Str : String;
+   Race : Integer;
+begin
+   Str := callfunc ('getsenderrace');
+   Race := StrToInt (Str);
+   if Race = 1 then begin
+      str := 'showwindow .\help\guide.txt';
+      print (str);
+   end;
+end;
+
+
+end.

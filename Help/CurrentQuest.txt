@@ -1,0 +1,12 @@
+<q2>
+<head>
+<title>每日任务</title>
+<text>
+完成每日任务可以熟悉游戏，还可以获得不错的奖励哦。
+</text>
+</head>
+<command send="close">结束</command>
+<body>
+暂时没有适合您的任务，请耐心等待新任务的发布吧。
+</body>
+</q2>

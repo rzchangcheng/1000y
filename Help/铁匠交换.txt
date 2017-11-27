@@ -1,0 +1,24 @@
+<trade>
+<head>
+<title>铁匠</title>
+<image name=z57 value=198>
+<text>
+ 囊中拥有矿物吗。想换走什么呢？
+</text>
+</head>
+<command send='close'>关闭</command>
+<body>
+<a send="metal7"> 黄铜交换 (青铜10个) 100钱
+<a send="metal8"> 砂金交换 (黄铜10个) 1000钱
+<a send="metal9"> 黄金交换 (沙金10个) 10000钱
+<a send="metal10"> 白金交换 (黄金10个) 100000钱
+<a send="rock7"> 黑石交换 (硅石10个) 100钱
+<a send="rock8"> 月石交换 (黑石10个) 1000钱
+<a send="rock9"> 玄石交换 (月石10个) 10000钱
+<a send="rock10"> 耀阳石交换 (玄石10个) 100000钱
+<a send="jewel7"> 绿玉交换 (青玉10个) 100钱
+<a send="jewel8"> 黄玉交换 (绿玉10个) 1000钱
+<a send="jewel9"> 白玉交换 (黄玉10个) 10000钱
+<a send="jewel10"> 黑珍珠交换 (白玉10个) 100000钱
+</body>
+</trade>

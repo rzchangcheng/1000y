@@ -1,0 +1,9 @@
+BUYTITLE:雨中客
+BUYCAPTION:收购部份王陵武器与防具.
+BUYIMAGE:136
+BUYITEM:男子木屐
+BUYITEM:女子木屐
+BUYITEM:女子斗笠
+BUYITEM:男子斗笠
+BUYITEM:男子黄金护腕
+BUYITEM:女子黄金护腕

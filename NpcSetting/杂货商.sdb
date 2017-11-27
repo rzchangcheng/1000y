@@ -1,0 +1,4 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,廉价出售各种加工材料,,,,,1500,
+2,TRUE,,,,走过路过不要错过啊,,,,,2100,
+3,TRUE,,,,收购各种宝物啦,,,,,3000,

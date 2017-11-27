@@ -1,0 +1,12 @@
+<trade>
+<title>药材商</title>
+<image name=z33 value=131>
+<text>
+ 将神秘箱子作为回报你意下如何?
+</text>
+<command send='close'>关闭</command>
+<command send="prize">好的</command>
+<command send="dontprize">拒绝</command>
+</trade>
+
+

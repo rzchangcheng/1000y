@@ -1,0 +1,11 @@
+<q1450>
+<head>
+<title>铁匠</title>
+<image name=z57 value=198>
+<text>
+只要有 [金毛狮甲]和[蝎子尾巴]就能制得石谷钥匙。
+</text>
+</head>
+<command send='before'>返回</command>
+</q1450>
+

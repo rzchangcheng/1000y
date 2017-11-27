@@ -1,0 +1,12 @@
+<q>
+<title>铁匠</title>
+<image name=z57 value=198>
+<text>
+ " 手上有这么珍贵的材料.不如给我好了.
+  我可用它研制新镐.不过若你不愿在下绝不勉强."
+</text>
+<command send='close'></command>
+<command send='needmaterial'>[好. 都需要什么材料?]</command>
+<command send='cancel'>[拒绝]</command>
+</q>
+

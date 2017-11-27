@@ -1,0 +1,13 @@
+<trade>
+<head>
+<title>风兄</title>
+<image name=z54 value=133>
+<text>
+ 是否要找回神秘箱子?
+</text>
+<command send='close'>关闭</command>
+<command send="prize">是</command>
+<command send="dontprize">不是</command>
+</trade>
+
+

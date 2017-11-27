@@ -1,0 +1,4 @@
+No,Name,NeedAge,NeedSkill,NeedItem,GiveItem,DropItem,DropMop,CallNpc,X,Y,DropX,DropY,Script,Width,boDelay,
+1,密室2石馆,,,,,王妃金冠:1:2:王陵瓷器:1:1,,,28,36,,,,,,
+2,瓷器1,,,,,王陵瓷器:1:10:瓷器:1:5:黑马武士:1:3,,,44,35,,,,,,
+3,瓷器1,,,,,王陵瓷器:1:10:瓷器:1:5:黑马武士:1:3,,,32,40,,,,,,

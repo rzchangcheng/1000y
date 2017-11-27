@@ -1,0 +1,11 @@
+<trade>
+<title>玉仙</title>
+<image name=z40 value=141>
+<text>
+ 要初始化帝王石谷任务吗?
+</text>
+<command send='close'>关闭</command>
+<command send="remotequest">初始化</command>
+<command send="close">稍作考虑</command>
+</trade>
+

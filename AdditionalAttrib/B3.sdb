@@ -1,0 +1,21 @@
+Name,ApproachHeadArmor,BowHeadArmor,BowAvoid,BasicValueDec,BowAttackSpeed,BowAccuracy,BowKeepRecovery,BowBodyArmor,BowArmArmor,BowLegArmor,HandSpeed,HandAccuracy,HandKeepRecovery,HandMinValue,HandMaxValue,HandBodyArmor,ApproachSpeed,ApproachAccuracy,ApproachAvoid,ApproachKeepRecovery,ApproachBodyArmor,ApproachLegArmor,ApproachArmArmor,AddBodyDamage,AddHeadDamage,AddArmDamage,AddLegDamage,EnergyRegenDec,desc
+0,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+1,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+2,,25,,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+3,21,,,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+4,,40,,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+5,,,6:4,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+6,28,,,5,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+7,21,,4,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+8,,58,,3,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+9,,47,3,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+10,21,51,,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+11,,62,3,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+12,18,69,,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+13,,54,6:4,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+14,32,51,,5,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+15,28,36,5,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+16,34,69,,3,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+17,16,65,5,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+18,36,73,,5,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类
+19,25,58,7:6,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 帽类

@@ -1,0 +1,12 @@
+<q>
+<title>梅花夫人</title>
+<image name=z42 value=126>
+<text>
+ " 最近双花店前面多了不少狗. "
+</text>
+<command send='q2_4_close'></command>
+<command send='continue'>[继续]</command>
+<command send='giveup'>[放弃]</command>
+</body>
+</q>
+

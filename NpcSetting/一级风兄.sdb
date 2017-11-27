@@ -1,0 +1,3 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,我卖男子衣服,,,,,3000,
+2,TRUE,,,,你熟悉染色的方法吗？,,,,,3100,

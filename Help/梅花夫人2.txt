@@ -1,0 +1,11 @@
+<trade>
+<title>梅花夫人</title>
+<image name=z42 value=126>
+<text>
+ 很有胆识嘛. 侠士想接受哪种审核?
+</text>
+<command send='close'>关闭</command>
+<command send="getquest2">2级审核</command>
+<command send="getquest3">3级审核</command>
+</trade>
+

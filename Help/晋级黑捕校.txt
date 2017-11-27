@@ -1,0 +1,12 @@
+<trade>
+<title>黑捕校</title>
+<image name=z22 value=140>
+<text>
+出售剑法武功书~ 收购剑系列技能武器..
+</text>
+<command send='close'>关闭</command>
+<command send="buy">卖 物品</command>
+<command send="sell">买 物品</command>
+<command send="getquest">申请剑系列绝世武功升级</command>
+</trade>
+

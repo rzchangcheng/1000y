@@ -1,0 +1,13 @@
+<q8>
+<head>
+<title>南帝王</title>
+</head>
+<command send="q8_close">关闭</command>
+<body>
+南帝王 :
+
+石谷钥匙由蝎子的尾巴和金毛狮甲制成。详情要问铁匠。
+</body>
+
+
+</q8>

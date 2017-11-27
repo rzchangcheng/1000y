@@ -1,0 +1,4 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,我出售枪法类武功书,,,,,2000,
+2,TRUE,,,,点击我,,,,,2100,
+3,TRUE,,,,F1是帮助键,,,,,2200,

@@ -1,0 +1,14 @@
+<q>
+<title>老侠客</title>
+<image name=z24 value=144>
+<text>
+ " 玉仙说,就是因为在路上碰上浑身都是白毛的家伙,
+逃跑的时候掉的.
+我在想是不是丢到白老虎林了.
+我想亲自跑一趟,可这儿又离不开...唉
+</text>
+<command send='close'></command>
+<command send='find'>[帮她找回]</command>
+<command send='rejection'>[离开]</command>
+</q>
+

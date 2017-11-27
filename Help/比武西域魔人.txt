@@ -1,0 +1,10 @@
+<trade>
+<title>西域魔人</title>
+<image name=z1 value=14>
+<text>
+ 这可是最后一关. 不过也别期望过高,和我对决,你连一成的胜算都没有.
+</text>
+<command send="exit"> </command>
+<command send="npcstart">出招吧</command>
+</trade>
+

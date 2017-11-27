@@ -1,0 +1,12 @@
+<trade>
+<title>龙师傅</title>
+<image name=z94 value=160>
+<text>
+哇！制造物品成功.你已具备神工资格.
+从现在起就向制造特级物品挑战吧.
+</text>
+<command send="close">关闭</command>
+</trade>
+
+
+

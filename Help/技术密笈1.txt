@@ -1,0 +1,13 @@
+<paper>
+<head>
+<title>炼金术 物品制造</title>
+<text>
+</text>
+</head>
+<command send='close'>关闭</command>
+<body>
+ 千年以前传说中的炼金术神工[雪楚]用毕生精力作成黄金钥匙,
+ 据史料记载黄金钥匙是四大技术名人融合的结晶
+ 当打造出黄金钥匙后你将成为世人注目的神工
+</body>
+</paper>

@@ -1,0 +1,10 @@
+<trade>
+<title>黑捕校</title>
+<image name=z1 value=15>
+<text>
+  在下并不好战,但此刻却有种冲动想与阁下切磋切磋.
+</text>
+<command send="exit"> </command>
+<command send="npcstart">出招吧</command>
+</trade>
+

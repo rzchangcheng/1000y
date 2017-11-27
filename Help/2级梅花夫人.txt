@@ -1,0 +1,10 @@
+<trade>
+<title>梅花夫人</title>
+<image name=z1 value=1>
+<text>
+ 唉,看你年纪不大,败得这么惨,会不会从此一蹶不振啊.
+</text>
+<command send="exit"> </command>
+<command send="npcstart">出招吧</command>
+</trade>
+

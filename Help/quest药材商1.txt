@@ -1,0 +1,13 @@
+<trade>
+<head>
+<title>药材商</title>
+<image name=z33 value=131>
+<text>
+我乃长城以南销售药材的药材商.
+</text>
+</head>
+<command send='close'>关闭</command>
+<command send="quest">赠送 神秘箱子</command>
+<command send="ok">材料转送完毕</command>
+</trade>
+

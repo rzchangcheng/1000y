@@ -1,0 +1,4 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,我有漂亮的衣服卖哦,,,,,1000,
+2,TRUE,,,,拿2个骨头可以帮你做骨钥匙,,,,,1833,
+3,TRUE,,,,技术NPC在长城以南的中央市场。,,,,,2666,

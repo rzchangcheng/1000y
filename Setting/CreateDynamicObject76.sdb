@@ -1,0 +1,5 @@
+No,Name,Script,NeedAge,NeedSkill,NeedItem,GiveItem,DropItem,DropMop,CallNpc,X,Y,DropX,DropY,Width,boDelay
+1,铜人室火炉1,98,,,,,,,,7,16,,,,
+2,铜人室火炉2,98,,,,,,,,19,16,,,,
+3,铜人室火炉3,98,,,,,,,,19,28,,,,
+4,铜人室火炉4,98,,,,,,,,7,27,,,,

@@ -1,0 +1,13 @@
+<q1100>
+<head>
+<title>阴阳师</title>
+</head>
+<command send='close'>关闭</command>
+<command send='before'>返回</command>
+<text>小佛像的位置</text>
+<body>
+ 以前东海沼泽小佛像多的是，最近却很罕见。
+ 据说一些人在东南角的竹林里见过小佛像。
+</body>
+</q1100>
+

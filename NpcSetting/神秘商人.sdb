@@ -1,0 +1,3 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,只要你愿意付出代价，我能帮你弄到一切。,,,,,1800,
+2,TRUE,,,,想要什么？我这里肯定有你需要的东西。,,,,,2300,

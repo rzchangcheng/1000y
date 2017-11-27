@@ -1,0 +1,12 @@
+<q>
+<title>四大神功宝典</title>
+<command send='close'>关闭</command>
+<command send='before4'>返回</command>
+<body>
+'空武功全集' 线索资料
+
+从长城以南侠客村的 '老侠客' 处购买.
+
+</body>
+</q>
+

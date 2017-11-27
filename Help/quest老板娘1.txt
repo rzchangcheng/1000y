@@ -1,0 +1,15 @@
+<trade>
+<head>
+<title>老板娘</title>
+<image name=z25 value=108>
+<text>
+廉价出售，高价收购.
+</text>
+</head>
+<command send='close'>关闭</command>
+<command send="buy">卖 物品</command>
+<command send="sell">买 物品</command>
+<command send="quest">拿出 神秘箱子</command>
+<command send="paper">递上 帐本 </command>
+</trade>
+

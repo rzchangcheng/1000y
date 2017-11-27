@@ -1,0 +1,11 @@
+<trade>
+<title>牛俊</title>
+<image name=z19 value=132>
+<text>
+哇啊啊..我的牛..怎么只傻看! 还不快帮忙!
+</text>
+<command send='close'>关闭</command>
+<command send="quest">拿给 风兄书札</command>
+<command send="material">递上 所需物品</command>
+</trade>
+

@@ -1,0 +1,14 @@
+<trade>
+<title>牛俊</title>
+<image name=z19 value=132>
+<text>
+ 这么远的路途，侠士找在下到底有何贵干?
+ 是需要槌法密笈吗?
+ 便宜出售,不如买回去吧.
+</text>
+<command send='close'>关闭</command>
+<command send="sell">买 槌法密笈</command>
+<command send="buy">卖 槌系兵器</command>
+<command send="getquest">申请 槌系绝世武功升级.</command>
+</trade>
+

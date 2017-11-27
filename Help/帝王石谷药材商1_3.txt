@@ -1,0 +1,13 @@
+<q1100>
+<title>I. 西域魔人阴谋</title>
+<command send='3_close'>关闭</command>
+<command send='getok'>返回</command>
+<body>
+
+ 药材商 :
+
+ 雪参乃起死回生之灵药。
+ 我也只听说雪参长在北海雪原的蚕蛹里。
+</body>
+</q1100>
+

@@ -1,0 +1,12 @@
+<q1100>
+<head>
+<title>阴阳师</title>
+<image name=z55 value=157>
+</head>
+<command send='close'>关闭</command>
+<text> 看来是高手。
+到底因何事儿找我？</text>
+<command send='aboutprotect'>询问降魔符的制法</command>
+<command send='protectticket'>做 降魔符</command>
+</q1100>
+

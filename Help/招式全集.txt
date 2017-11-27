@@ -1,0 +1,11 @@
+<q>
+<title>招式全集</title>
+<command send='close'>关闭</command>
+<text>
+要废弃吗?
+</text>
+<body>
+<a send='destroy'>废弃招式牌.
+</body>
+</q>
+

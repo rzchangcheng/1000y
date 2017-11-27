@@ -1,0 +1,18 @@
+<q1400>
+<head>
+<title>II. 南帝王 Quest</title>
+</head>
+
+<command send="sayreven"> 关闭 </command>
+<body>
+
+ 南帝王 :
+
+ 什么?两个人已经不在了?是谁...是谁杀了他们.
+ 啊?你将他们的灵收入葫芦里的?原来是你.那
+ 你是如何打算的?
+
+<a send='sayreven'>[发誓为二王报仇.]
+</body>
+
+</q1400>

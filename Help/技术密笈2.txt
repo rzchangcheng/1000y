@@ -1,0 +1,11 @@
+<paper>
+<head>
+<title>炼丹术 物品制造</title>
+<text>
+</text>
+</head>
+<command send='close'>关闭</command>
+<body>
+ 千年以前,传说中的炼丹师神工[云中子]用毕生精力作出乾坤日月酒,
+ 据史料记载,乾坤日月酒是由四大名人努力的结晶
+</paper>

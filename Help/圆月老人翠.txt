@@ -1,0 +1,10 @@
+<trade>
+<title>圆月老人</title>
+<image name=z81 value=235>
+<text>
+用翠月魂可以换到铠甲或其他物品
+</text>
+<command send='close'>关闭</command>
+<command send="changeweapon">交换翠月魂</command>
+<command send="changered">合成赤月魂</command>
+</trade>

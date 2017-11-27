@@ -1,0 +1,9 @@
+<q>
+<title>药材商</title>
+<command send='q2_2_close'>关闭</command>
+<body>
+ " 这是长城以南药材商让送来的? 嗯...果然不错... "
+
+</body>
+</q>
+

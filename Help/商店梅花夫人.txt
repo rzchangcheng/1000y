@@ -1,0 +1,12 @@
+<trade>
+<title>梅花夫人</title>
+<image name=z42 value=126>
+<text>
+出售和收购技术造衣物和各类技术所需材料~~
+</text>
+<command send='close'>关闭</command>
+<command send="buy"> 卖 物品</command>
+<command send="sell"> 买 物品
+</command>
+</trade>
+

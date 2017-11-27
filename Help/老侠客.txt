@@ -1,0 +1,12 @@
+<trade>
+<title>老侠客</title>
+<image name=z24 value=144>
+<text>
+你需要武功密笈吗?我高价收购陶器与瓷器
+</text>
+<command send='close'>关闭</command>
+<command send="buy">卖 陶器,瓷器</command>
+<command send="sell">买 辅助武功,强身,步法武功密笈</command>
+<command send='getquest'>有关神功升级</command>
+</trade>
+

@@ -1,0 +1,9 @@
+<q>
+<title>捕盗大将</title>
+<command send='close_2'>关闭</command>
+<body>
+ " 不错不错.正是那些家伙潜逃时带着的脚镣. 
+这是在下的一点儿心意,请收下."
+</body>
+</q>
+

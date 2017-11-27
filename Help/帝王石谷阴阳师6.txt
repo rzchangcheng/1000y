@@ -1,0 +1,15 @@
+<q1100>
+<head>
+<title>阴阳师</title>
+<image name=z55 value=157>
+</head>
+<command send='beforeprotect'>返回</command>
+<text>
+
+拿白桦树木块儿做降魔符。从这儿往西北角去，
+就能看到巨大的千年巨木的木块儿。
+
+
+</text>
+</q1100>
+

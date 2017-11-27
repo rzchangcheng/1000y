@@ -1,0 +1,14 @@
+<trade>
+<title>捕盗大将</title>
+<image name=z23 value=181>
+<text>
+ 出售拳法武功书和门派物品.要想建立必须将门石放到地上.
+ 收购各种拳套武器.
+ 
+</text>
+<command send='close'>关闭</command>
+<command send="buy">出售物品</command>
+<command send="sell">收购物品</command>
+<command send="getquest">申请拳系列绝世武功升级.</command>
+</trade>
+

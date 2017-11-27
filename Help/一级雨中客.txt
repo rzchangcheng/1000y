@@ -1,0 +1,10 @@
+<trade>
+<title>雨中客</title>
+<image name=z1 value=3>
+<text>
+ 我不好战却想与你一绝高下.
+</text>
+<command send="exit"> </command>
+<command send="start">比武开始</command>
+</trade>
+

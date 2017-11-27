@@ -1,0 +1,12 @@
+<trade>
+<head>
+<title>杂货商</title>
+<image name=z33 value=131>
+<text>
+材料廉价出售，宝物高价回收，你懂的！
+</text>
+<command send='close'>关闭</command>
+<command send="sell">买 物品</command>
+<command send="buy">卖 物品</command>
+</trade>
+

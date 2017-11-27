@@ -1,0 +1,7 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,这是进入大战场的跳点,,,,,2000,
+2,TRUE,,,,请排队进入,,,,,2100,
+3,TRUE,,,,通过跳点可以到大战场,,,,,2200,
+4,TRUE,,,,可以从大战场移动到长城以南,,,,,2300,
+5,TRUE,,,,请按顺序入场,,,,,2400,
+6,TRUE,,,,这是进入大战场的跳点,,,,,2500,

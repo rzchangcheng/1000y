@@ -1,0 +1,4 @@
+Name,MonsterName,X,Y,Count,Width,Member,Script,
+1,老鼠KK,55,55,1,44,,,
+2,老鼠,55,55,10,25,,,
+3,老鼠,55,55,3,15,老鼠NK:1,,

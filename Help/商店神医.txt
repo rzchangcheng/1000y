@@ -1,0 +1,11 @@
+<trade>
+<title>神医</title>
+<image name=z92 value=142>
+<text>
+出售和收购技术造衣物和各类技术所需材料.
+</text>
+<command send='close'>关闭</command>
+<command send="buy"> 卖 物品</command>
+<command send="sell"> 买 物品</command>
+</trade>
+

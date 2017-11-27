@@ -1,0 +1,12 @@
+<trade>
+<title>老侠客</title>
+<image name=z24 value=144>
+<text>
+ 幸会. 在下乃新罗唯一幸存的花郎老侠客.
+ 我的使命是协助雨中客完成守护王陵.
+</text>
+<command send='close'>关闭</command>
+<command send="takeback">找回新罗遗失的遗物</command>
+<command send="makebul">帮我做[不灭]</command>
+</trade>
+

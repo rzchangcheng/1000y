@@ -1,0 +1,14 @@
+<trade>
+<head>
+<title>龙师父</title>
+<image name=z94 value=35>
+<text>
+出售梦游岛门票
+</text>
+</head>
+<command send='close'>关闭</command>
+<command send="sell">买 梦游岛门票</command>
+<command send="give_1">兑换 初级英雄牌</command>
+<command send="give_2">兑换 高级英雄牌</command>
+</trade>
+

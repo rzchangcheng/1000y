@@ -1,0 +1,11 @@
+<trade>
+<title>神秘商人</title>
+<image name=z55 value=157>
+<text>
+钱可通神，万物皆可交易！
+</text>
+<command send='close'>关闭</command>
+<command send="buyGZP">购买[公子牌]</command>
+<command send="buySHP">购买[守护牌]</command>
+<command send="buySSP">购买[术士牌]</command>
+</trade>

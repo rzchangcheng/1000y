@@ -1,0 +1,11 @@
+<q>
+<title>捕盗大将</title>
+<image name=z23 value=181>
+<text>
+ " 要抓紧时间了!!! 长城以南百姓的安危可靠你了!!"
+</text>
+<command send='close_3'></command>
+<command send='continue'>[继续]</command>
+<command send='giveup'>[放弃]</command>
+</q>
+

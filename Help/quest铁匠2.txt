@@ -1,0 +1,11 @@
+<trade>
+<title>铁匠</title>
+<image name=z57 value=198>
+<text>
+ 将神秘箱子做为补偿,可否?
+</text>
+<command send='close'>关闭</command>
+<command send="prize">可以</command>
+<command send="dontprize">不可以</command>
+</trade>
+

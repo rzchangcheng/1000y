@@ -1,0 +1,17 @@
+<trade>
+<title>牛美</title>
+<image name=z43 value=106>
+<text>
+ 专业铸造师 牛美
+ 需要帮助吗?
+</text>
+<command send='close'>关闭</command>
+<body>
+<a send="salesell"> 买 兵器
+<a send="salebuy"> 卖 兵器
+<a send="alchemist"> 成为铸造师
+<a send="reqchange"> 要求转职为铸造师
+<a send="jobhelp"> 请教铸造术
+<a send="virtueman"> 选择神工之路
+</body>
+</trade>

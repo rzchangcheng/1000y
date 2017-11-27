@@ -1,0 +1,4 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,我是梅花夫人,,,,,3000,
+2,TRUE,,,,点击我.看有什么可以帮你的嘛,,,,,3000,
+3,TRUE,,,,传授技术的NPC在长城以南的中央市场,,,,,3000,

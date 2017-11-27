@@ -1,0 +1,12 @@
+<trade>
+<title>白捕校</title>
+<image name=z21 value=140>
+<text>
+ 看来侠士对武功很痴迷,你要接受哪种审核?
+
+</text>
+<command send='close'>关闭</command>
+<command send="getquest2">2级审核</command>
+<command send="getquest3">3级审核</command>
+</trade>
+

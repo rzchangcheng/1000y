@@ -1,0 +1,12 @@
+<q>
+<title>药材商</title>
+<image name=z33 value=131>
+<text>
+ " 山贼最可恶了. 无论你多辛苦,攒了多长时间,
+他都会给你洗劫一空.. "
+</text>
+<command send='q2_4_close'></command>
+<command send='continue'>[继续]</command>
+<command send='giveup'>[放弃]</command>
+</q>
+

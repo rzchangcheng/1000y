@@ -1,0 +1,10 @@
+<trade>
+<title>捕盗大将</title>
+<image name=z1 value=0>
+<text>
+在下想跟阁下过两招.
+</text>
+<command send="exit"> </command>
+<command send="npcstart">出招吧</command>
+</trade>
+

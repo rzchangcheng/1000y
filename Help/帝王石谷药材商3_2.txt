@@ -1,0 +1,14 @@
+<q1100>
+<title>I. 西域魔人的阴谋</title>
+<command send='3_1_close'>关闭</command>
+<body>
+
+ 药材商 :
+
+
+ 手拿竹筒，沙漠无惧。
+ 竹筒的水没了，去绿洲灌满。
+
+</body>
+</q1100>
+

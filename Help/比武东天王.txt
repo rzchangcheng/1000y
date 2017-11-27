@@ -1,0 +1,10 @@
+<trade>
+<title>东天王</title>
+<image name=z1 value=12>
+<text>
+ 我乃创立天王刀诀的东天王,这位侠士可愿与我切磋武艺?
+</text>
+<command send="exit"> </command>
+<command send="npcstart">出招吧</command>
+</trade>
+

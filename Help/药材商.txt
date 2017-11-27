@@ -1,0 +1,12 @@
+<trade>
+<title>药材商</title>
+<image name=z33 value=131>
+<text>
+需要物品就到我这来吧!我也收购一些物品
+</text>
+<command send='close'>关闭</command>
+<command send="buy">卖 物品</command>
+<command send="sell">买 物品</command>
+<command send="log">保管物品</command>
+</trade>
+

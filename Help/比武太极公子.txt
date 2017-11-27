@@ -1,0 +1,10 @@
+<trade>
+<title>太极公子</title>
+<image name=z1 value=11>
+<text>
+ 君子以诚相待,即使是比武,也可试出一个人的品性!
+</text>
+<command send="exit"> </command>
+<command send="npcstart">出招吧</command>
+</trade>
+

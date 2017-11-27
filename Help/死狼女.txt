@@ -1,0 +1,11 @@
+<trade>
+<title>死狼女</title>
+<image name=z52 value=104>
+<text>
+有糖块儿吗?换给你丘比特牌~ 
+送给你的女友吧 *^^*
+</text>
+<command send='close'>关闭</command>
+<command send="change">换给你丘比特牌</command>
+</trade>
+

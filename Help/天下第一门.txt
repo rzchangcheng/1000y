@@ -1,0 +1,23 @@
+<q1>
+<head>
+<title>天下第一门</title>
+<image name=z1 value=11>
+<text>
+　　      天下英雄出我辈，                     
+          一入江湖岁月催。                     
+          武林霸业谈笑中，                     
+          不胜千年一场醉！
+</text>
+</head>
+<command send="close">关闭</command>
+<body>
+<a send="join"> 加入天下第一门
+
+<a send="close"> 领取节日礼物
+
+<a send="guide0"> 云端千年捐助清单
+
+<a send="CurrentQuest"> 接受任务
+<a send="close"> 完成任务
+</body>
+</q1>   

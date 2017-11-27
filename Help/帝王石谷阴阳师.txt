@@ -1,0 +1,13 @@
+<trade>
+<title>阴阳师</title>
+<image name=z55 value=157>
+<text>
+ 怎么没有人要二级弓术武功书?
+ 请拿潜行术来换透视符
+</text>
+<command send='close'>关闭</command>
+<command send="sell">买 二级弓术武功密笈</command>
+<command send="make">交换透视符</command>
+</trade>
+
+

@@ -1,0 +1,5 @@
+Name,Upgrade,SuccessRate,DungeonRate,DamageBody,DamageHead,DamageArm,DamageLeg,ArmorBody,ArmorHead,ArmorArm,ArmorLeg,AttackSpeed,Avoid,Recovery,Accuracy,KeepRecovery,
+1¶Î,1,70,85,20,20,20,20,20,20,20,20,20,20,20,20,20,
+2¶Î,2,25,70,50,50,50,50,50,50,50,50,50,50,50,50,50,
+3¶Î,3,10,25,100,100,100,100,100,100,100,100,100,100,100,100,100,
+4¶Î,4,20,30,150,150,150,150,150,150,150,150,150,150,150,150,150,

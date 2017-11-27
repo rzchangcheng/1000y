@@ -1,0 +1,9 @@
+<q>
+<title>铁匠</title>
+<command send='q1_close'>关闭</command>
+<body>
+ "  说啥?箱子打不开?我看看...又破又烂还挺结实嘛.
+ 拿着!这是里面装着的东西."
+</body>
+</q>
+

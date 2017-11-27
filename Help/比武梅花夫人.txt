@@ -1,0 +1,11 @@
+<trade>
+<title>梅花夫人</title>
+<image name=z1 value=1>
+<text>
+ 呵呵,真不愧人小志气大,不过我的梅花枪可不长眼睛的哦!
+.
+</text>
+<command send="exit"> </command>
+<command send="npcstart">出招吧</command>
+</trade>
+

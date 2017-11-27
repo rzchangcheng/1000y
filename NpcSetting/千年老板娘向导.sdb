@@ -1,0 +1,4 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,欢迎光临，您是刚从新手村出来吗？,,,,,2000,
+2,TRUE,,,,您可以打开地图了解自己所在位置。,,,,,3000,
+3,TRUE,,,,江湖危险快点跑，新手在武林中要注意保护好自己哦。,,,,,5000,

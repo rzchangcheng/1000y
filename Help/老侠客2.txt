@@ -1,0 +1,17 @@
+<trade>
+<head>
+<title>老侠客</title>
+<image name=z24 value=144>
+<text>
+ 你不会是徒有其表吧?
+</text>
+</head>
+<command send='close'>关闭</command>
+<body>
+<command send='grade2'>申请2级任务</command>
+<command send='grade3'>申请3级任务</command>
+<command send='giveitem2'>申请升2级</command>
+<command send='giveitem3'>申请升3级</command>
+</body>
+</trade>
+

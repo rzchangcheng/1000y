@@ -1,0 +1,11 @@
+<trade>
+<title>白捕校</title>
+<image name=z21 value=140>
+<text>
+ 出售绝世武功密笈.
+</text>
+<command send='close'>关闭</command>
+<command send="best1">买 狂风刀法</command>
+<command send="best2">买 罗汉刀法</command>
+</trade>
+

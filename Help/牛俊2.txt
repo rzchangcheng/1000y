@@ -1,0 +1,11 @@
+<trade>
+<title>牛俊</title>
+<image name=z19 value=132>
+<text>
+ 哈哈, 后生可畏啊.侠士想接受哪种审核?
+</text>
+<command send='close'>关闭</command>
+<command send="getquest2">2级审核</command>
+<command send="getquest3">3级审核</command>
+</trade>
+

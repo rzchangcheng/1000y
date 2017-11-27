@@ -1,0 +1,15 @@
+<q8>
+<head>
+<title>南帝王</title>
+</head>
+<command send="q8_close">关闭</command>
+<body>
+南帝王 :
+
+降魔符是突破西域魔人禁制的符。具体制法要问阴阳师。
+
+
+<a send="q8_7">[询问有关石谷钥匙的详细讯息]
+
+</body>
+</q8>

@@ -1,0 +1,2 @@
+Name,BowAttackSpeed,BowAccuracy,BowKeepRecovery,BowAvoid,BowBodyArmor,BowHeadArmor,BowArmArmor,BowLegArmor,HandSpeed,HandAccuracy,HandKeepRecovery,HandMinValue,HandMaxValue,HandBodyArmor,ApproachSpeed,ApproachAccuracy,ApproachAvoid,ApproachKeepRecovery,ApproachBodyArmor,ApproachHeadArmor,ApproachLegArmor,ApproachArmArmor,AddBodyDamage,AddHeadDamage,AddArmDamage,AddLegDamage,EnergyRegenDec,BasicValueDec,desc
+0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,五道家 武器类

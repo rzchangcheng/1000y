@@ -1,0 +1,16 @@
+<trade>
+<title>雨中客</title>
+<image name=z112 value=28>
+<text>
+ 幸会. 我是肩负守护王陵重任的雨中客. 
+ 现今夜贼频出,不知侠客是否愿拔刀相助.
+</text>
+<command send="close">关闭</command>
+<body>
+<a send="request">接受委托.
+<a send="removal">铲除了忍王一伙儿.
+<a send="returntreasure">取回王陵4大宝物拿给雨中客.
+<a send="goarea">请雨中客转送至禁区.
+</body>
+</trade>
+

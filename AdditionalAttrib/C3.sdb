@@ -1,0 +1,21 @@
+Name,ApproachArmArmor,BowArmArmor,BowAccuracy,BasicValueDec,BowAttackSpeed,BowKeepRecovery,BowAvoid,BowBodyArmor,BowHeadArmor,BowLegArmor,HandSpeed,HandAccuracy,HandKeepRecovery,HandMinValue,HandMaxValue,HandBodyArmor,ApproachSpeed,ApproachAccuracy,ApproachAvoid,ApproachKeepRecovery,ApproachBodyArmor,ApproachHeadArmor,ApproachLegArmor,AddBodyDamage,AddHeadDamage,AddArmDamage,AddLegDamage,EnergyRegenDec,desc
+0,,,,5,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+1,,,2,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+2,,25,,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+3,21,,,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+4,,40,,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+5,,,6:4,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+6,28,,,5,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+7,21,,4,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+8,,58,,3,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+9,,47,3,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+10,21,51,,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+11,,62,3,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+12,18,69,,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+13,,54,6:4,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+14,32,51,,5,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+15,28,36,5,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+16,34,69,,3,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+17,16,65,5,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+18,36,73,,5,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类
+19,25,58,7:6,,,,,,,,,,,,,,,,,,,,,,,,,,弓/投 铠甲类

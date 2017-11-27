@@ -1,0 +1,11 @@
+<trade>
+<title>门派总管</title>
+<image name=z1 value=1>
+<text>
+  欢迎回来，请问有什么事吗？
+</text>
+<command send='close'>关闭</command>
+<command send="benefit">领 福利</command>
+<command send="sell">买 物品</command>
+<command send="buy">卖 物品</command>
+</trade>

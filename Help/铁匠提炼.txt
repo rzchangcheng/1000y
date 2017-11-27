@@ -1,0 +1,38 @@
+<trade>
+<head>
+<title>铁匠</title>
+<image name=z57 value=198>
+<text>
+ 开采到什么了,要提炼吗?
+</text>
+</head>
+<command send='close'>关闭</command>
+<body>
+<a send="steel1"> 提炼钢铁 (生铁10个) 100钱
+<a send="steel2"> 提炼墨铁 (钢铁10个) 1000钱
+<a send="steel3"> 提炼玄铁 (墨铁10个) 10000钱
+<a send="steel4"> 提炼熔岩铁 (玄铁10个) 100000钱
+<a send="steel5"> 提炼千年衔铁 (熔岩铁10个) 200000钱
+<a send="metal1"> 提炼青铜 (青铜原石3个) 200钱
+<a send="metal2"> 提炼黄铜 (黄铜原石3个) 500钱
+<a send="metal3"> 提炼砂金 (砂金原石3个) 1000钱
+<a send="metal4"> 提炼黄金 (黄金原石3个) 5000钱
+<a send="metal5"> 提炼白金 (白金原石2个) 10000钱
+<a send="metal6"> 提炼千年纯金 (千年纯金原石1个) 20000钱
+<a send="rock1"> 提炼硅石 (硅石原石3个) 200钱
+<a send="rock2"> 提炼黑石 (黑石原石3个) 500钱
+<a send="rock3"> 提炼月石 (月石原石3个) 1000钱
+<a send="rock4"> 提炼玄石 (玄石原石3个) 5000钱
+<a send="rock5"> 提炼耀阳石 (耀阳原石2个) 10000钱
+<a send="rock6"> 提炼千年金刚石 (千年金刚石原石1个) 20000钱
+<a send="jewel1"> 提炼青玉 (青玉原石3个) 200钱
+<a send="jewel2"> 提炼绿玉 (绿玉原石3个) 500钱
+<a send="jewel3"> 提炼黄玉 (黄玉原石3个) 1000钱
+<a send="jewel4"> 提炼白玉 (白玉原石3个) 5000钱
+<a send="jewel5"> 提炼黑珍珠 (黑珍珠原石2个) 10000钱
+<a send="jewel6"> 提炼千年水晶 (千年水晶原石1个) 20000钱
+</body>
+</trade>
+
+
+

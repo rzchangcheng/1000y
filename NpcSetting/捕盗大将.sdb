@@ -1,0 +1,3 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,谁向我发暗器,,,,,2571,
+2,TRUE,,,,收购技能制拳套。,,,,,3142,

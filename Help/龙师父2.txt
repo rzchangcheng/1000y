@@ -1,0 +1,12 @@
+<trade>
+<title>龙师傅</title>
+<image name=z94 value=160>
+<text>
+小子,差远了,还不够资格,继续修炼去吧,
+火候到了, 再来找老夫.
+</text>
+<command send="close">关闭</command>
+</trade>
+
+
+

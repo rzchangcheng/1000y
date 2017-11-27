@@ -1,0 +1,13 @@
+<trade>
+<title>梅花夫人</title>
+<image name=z42 value=126>
+<text>
+ 真要转职?
+</text>
+<command send='close'>关闭</command>
+<command send="change"> 转职</command>
+<command send="close"> 稍做考虑</command>
+</trade>
+
+
+

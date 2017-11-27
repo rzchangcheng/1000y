@@ -1,0 +1,12 @@
+<trade>
+<head>
+<title>药材商</title>
+<image name=z33 value=131>
+<text>
+ 我向来是廉价出售,高价收购的~
+</text>
+</head>
+<command send='close'>关闭</command>
+<command send="sendmaterial">交给 所需材料</command>
+</trade>
+

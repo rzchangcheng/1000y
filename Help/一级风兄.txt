@@ -1,0 +1,12 @@
+<trade>
+<head>
+<title>风兄</title>
+<image name=z54 value=133>
+<text>
+ 您想买点什么？
+</text>
+<command send='close'>关闭</command>
+<command send="sell">买 物品</command>
+<command send="make1">制造 男子墨铁战斗服</command>
+<command send="make2">制造 男子墨铁弓服</command>
+</trade>

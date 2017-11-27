@@ -1,0 +1,23 @@
+<trade>
+<head>
+<title>风兄</title>
+<image name=z54 value=133>
+<text>
+ 专业冶炼师风兄
+ 需要帮助吗?
+</text>
+</head>
+<command send='close'>关闭</command>
+<body>
+<a send="make"> 做骨钥匙
+<a send="sell"> 买男子衣服
+<a send="buy"> 卖男子物品
+<a send="salebuy"> 卖工匠制造物品
+<a send="salesell"> 买工匠制造物品
+<a send="craftsman"> 成为工匠
+<a send="reqchange"> 申请转职
+<a send="jobhelp"> 询问冶炼术
+<a send="virtueman"> 选择神工之路
+</body>
+</trade>
+

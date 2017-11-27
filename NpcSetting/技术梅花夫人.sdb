@@ -1,0 +1,6 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,拿30000钱币就可入门学习了,,,,,3000,
+2,TRUE,,,,出售与收购裁缝制造出的物品,,,,,3000,
+3,TRUE,,,,尽快向神工迈进,,,,,3000,
+4,TRUE,,,,职业转职费为钱币50000。,,,,,3000,
+5,TRUE,,,,转职时原技能值将变为初始化,,,,,3000,

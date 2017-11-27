@@ -1,0 +1,5 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,今天是你们喜结良缘的日子，由相知而相爱，由相爱而更加相知。人们常说的神仙眷侣就是你们了！,,,,,1000,
+2,TRUE,,,,正所谓十年修得同船渡，百年修得共枕眠。用真心呵护这份缘吧！,,,,,1285,
+3,TRUE,,,,愿你俩用爱去绾着对方，彼此互相体谅和关怀，共同分享今后的苦与乐。,,,,,1571,
+4,TRUE,,,,百年好合永结同心！,,,,,3000,

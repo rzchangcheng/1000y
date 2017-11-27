@@ -1,0 +1,19 @@
+<trade>
+<head>
+<title>阴阳师</title>
+<image name=z55 value=157>
+<text>
+ 怎么没有人要二级弓术武功书?
+ 请拿潜行术来换透视符
+</text>
+</head>
+<command send='close'>关闭</command>
+<body>
+<a send="sell">买 二级弓术武功密笈.
+<a send="make">用潜行术换透视符.
+<a send="quest">递上 老板娘书札
+<a send="spirit">递上 魂魄.
+<a send="seal">递上 封符.
+</body>
+</trade>
+

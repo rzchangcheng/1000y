@@ -1,0 +1,10 @@
+<q>
+<title>牛俊</title>
+<image name=z19 value=132>
+<text>
+ " 这...这到底是~! "
+</text>
+<command send='close'></command>
+<command send='q1_next'>[怎么了?]</command>
+</q>
+

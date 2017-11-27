@@ -1,0 +1,9 @@
+<q>
+<title>风兄</title>
+<command send='q2_2_close'>关闭</command>
+<body>
+ " 如果可以实现,发财是早晚的事儿. "
+
+</body>
+</q>
+

@@ -1,0 +1,15 @@
+<q>
+<title>四大神功宝典</title>
+<command send='close'>关闭</command>
+<command send='before'>返回</command>
+<body>
+做'血天魔功'宝典要用的材料.
+
+<a send='material1_1'>北方魔人内丹 1个
+
+<a send='material1_2'>蜘蛛血 5个
+
+<a send='material1_3'>无字天书 1个
+</body>
+</q>
+

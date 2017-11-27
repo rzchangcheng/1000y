@@ -1,0 +1,13 @@
+<paper>
+<head>
+<title>工匠 物品制造</title>
+<text>
+</text>
+</head>
+<command send='close'>关闭</command>
+<body>
+千年之前传说中的铁匠神工[狂星子],用毕生经历作出玻璃戒，
+据史料记载玻璃戒是四大技术名人努力的结晶．
+四合为一作出玻璃戒，成为世人注目的神工.
+</body>
+</paper>

@@ -1,0 +1,13 @@
+<trade>
+<title>铁匠</title>
+<image name=z57 value=198>
+<text>
+ 本人乃铁匠是也.很荣幸能为你效劳!
+</text>
+<command send='close'>关闭</command>
+<command send="quest">递上 神秘箱子</command>
+<command send="givematerial">交给 所需材料</command>
+<command send="fix">修炼八卦牌</command>
+<command send="fixweapon">修理不羁浪人武器</command>
+</trade>
+

@@ -1,0 +1,8 @@
+<q>
+<title>捕盗大将</title>
+<command send='close'>关闭</command>
+<body>
+ " 又是一个胆小怕事之辈.!!带上这个快给我离开!! "
+</body>
+</q>
+

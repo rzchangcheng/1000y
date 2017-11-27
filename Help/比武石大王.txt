@@ -1,0 +1,10 @@
+<trade>
+<title>石大王</title>
+<image name=z1 value=9>
+<text>
+看你弱不禁风的样子,可堪我的重拳一击?
+</text>
+<command send="exit"> </command>
+<command send="npcstart">出招吧</command>
+</trade>
+

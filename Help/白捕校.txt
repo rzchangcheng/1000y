@@ -1,0 +1,11 @@
+<trade>
+<title>白捕校</title>
+<image name=z21 value=140>
+<text>
+出售刀法武功秘籍~ 收购各类技能制刀等兵器.
+</text>
+<command send='close'>关闭</command>
+<command send="buy">卖 物品</command>
+<command send="sell">买 物品</command>
+</trade>
+

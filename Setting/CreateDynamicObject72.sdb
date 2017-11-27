@@ -1,0 +1,4 @@
+No,Name,NeedAge,NeedSkill,NeedItem,GiveItem,DropItem,DropMop,CallNpc,X,Y,DropX,DropY,Script,Width,boDelay,
+1,密室1石馆,,,,,王子宝剑:1:2:王陵瓷器:1:1,,,29,24,,,,,,
+2,瓷器2,,,,,王陵瓷器:1:10:瓷器:1:5:黑马武士:1:3,,,22,21,,,,,,
+3,瓷器3,,,,,王陵瓷器:1:10:瓷器:1:5:黑马武士:1:3,,,17,18,,,,,,

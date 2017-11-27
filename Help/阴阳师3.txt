@@ -1,0 +1,11 @@
+<q>
+<title>阴阳师</title>
+<image name=z55 value=157>
+<text>
+ " 在侠士离开的这段日子又无辜死了2个人... "
+</text>
+<command send='close'></command>
+<command send='continue'>[继续]</command>
+<command send='giveup'>[放弃]</command>
+</q>
+

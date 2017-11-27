@@ -1,0 +1,9 @@
+<q>
+<title>药材商</title>
+<command send='q2_3_close'>关闭</command>
+<body>
+ " 侠客好面熟? 可是药材商找来帮忙的吗? "
+
+</body>
+</q>
+

@@ -1,0 +1,138 @@
+unit ScriptA;
+
+interface
+
+function  GetToken (aStr, aToken, aSep : String) : String;
+function  CompareStr (aStr1, aStr2 : String) : Boolean;
+function  callfunc (aText: string): string;
+procedure print (aText: string);
+function  Random (aScope: integer): integer;
+function  Length (aText: string): integer;
+procedure Inc (aInt: integer);
+procedure Dec (aInt: integer);
+function  StrToInt (astr: string): integer;
+function  IntToStr (aInt: integer): string;
+procedure exit;
+
+procedure OnLeftClick (aStr : String);
+procedure OnHear (aStr : String);
+
+implementation
+
+procedure OnHear (aStr : String);
+var
+   Str, Str1, Str2, Str3, num : String;
+   Race, n, p : Integer;
+begin
+   //Str := callfunc ('getsenderposition');
+   Str := callfunc ('getsenderrace');
+   Race := StrToInt (Str);
+   if Race <> 1 then exit;
+   Str := aStr;
+   Str := GetToken (Str, Str1, '_');
+   Str := GetToken (Str, Str2, '_');
+   Str := GetToken (Str, Str3, '_');
+   n := StrToInt (Str3);
+   Str3 := IntToStr (n);
+   if n = 0 then exit;
+   if Str <> '' then exit;
+   if Str1 = '卖' then begin
+      p := 0;
+      if Str2 = '肉' then p := 4;
+      if Str2 = '皮' then p := 7;
+      if Str2 = '银元' then p := 100;
+      if Str2 = '葛根' then p := 100;
+      p := n*p;
+      if p = 0 then exit;
+      Str := 'getsenderitemexistence ' + Str2;
+      Str := Str + ':';
+      Str := Str + Str3;
+      Str := callfunc (Str);
+      if Str = 'false' then begin
+         Str := 'say 你没有这么多';
+         Str := Str + Str2;
+         print (Str);
+         exit;
+      end;
+      Str := 'getsenderitem ' + Str2;
+      Str := Str + ':';
+      Str := Str + Str3;
+      print (Str);
+      num := IntToStr (p);
+      Str := 'putsendermagicitem 钱币:';
+      Str := Str + num;
+      Str := Str + ' @老板娘 4';
+      print (Str);
+      print ('say 交易完毕，欢迎再来。');
+      exit;
+   end;
+   if Str1 = '买' then begin
+      p := 0;
+      if Str2 = '葛根' then p := 60;
+      if Str2 = '牛黄' then p := 260;
+      p := n*p;
+      if p = 0 then exit;
+      num := IntToStr (p);
+      Str := 'getsenderitemexistence 钱币:' + num;
+      Str := callfunc (Str);
+      if Str = 'false' then begin
+         Str := 'say 你没有这么多钱币买';
+         Str := Str + Str2;
+         print (Str);
+         exit;
+      end;
+      Str := callfunc ('checkenoughspace');
+      if Str = 'false' then begin
+         print ('say 您的物品栏已满~');
+         exit;
+      end;
+      Str := 'getsenderitem 钱币:' + num;
+      print (Str);
+      Str := 'putsendermagicitem ' + Str2;
+      Str := Str + ':';
+      Str := Str + Str3;
+      Str := Str + ' @杂货商 4';
+      print (Str);
+      print ('say 交易完毕，请问还要买什么吗？');
+      exit;
+   end;
+   Str1 := 'say Str1:' + Str1;
+   Str2 := 'say Str2:' + Str2;Str2 := Str2 + ' 100';
+   Str3 := 'say Str3:' + Str3;Str3 := Str3 + ' 100';
+   Str := 'say Str:' + Str;Str := Str + ' 100';
+   print (Str1);
+   print (Str2);
+   print (Str3);
+   print (Str);
+
+end;
+
+procedure OnLeftClick (aStr : String);
+var
+   Str, k, MyChar, Text : String;
+   i : Integer;
+begin
+   //for循环语句可正常使用
+   //for i := 0 to 90 do
+   //begin
+   //   k := IntToStr (i);
+   //   Str := 'sendnoticemsgformapuser ' + k;
+   //   Str := Str + ' 系统公告:天下第一门欢迎新玩家加入 14';
+   //   print (Str);
+   //end;
+   //Str := 'sendnoticemsgformapuser 89 系统公告:天下第一门欢迎新玩家加入 15';
+   //print (str);
+   //if 1 = 1 then print ('say 1等于1');
+   //if 1 > 1 then print ('say 1大等于1?');
+      Str := callfunc ('getsenderuseattackskilllevel');
+      if Str <> '9999' then begin
+         print ('say 就你这点功夫也敢来挑战我？');
+         //exit;
+      end;
+      if Str = '9999' then begin
+         print ('say 功夫不错嘛？');
+         exit;
+      end;
+end;
+
+end.

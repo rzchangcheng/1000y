@@ -1,0 +1,11 @@
+<q>
+<title>神医</title>
+<image name=z92 value=142>
+<text>
+ " 还没找到? "
+</text>
+<command send='close'></command>
+<command send='continue'>[继续]</command>
+<command send='giveup'>[放弃]</command>
+</q>
+

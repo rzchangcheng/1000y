@@ -1,0 +1,10 @@
+<trade>
+<title>牛俊</title>
+<image name=z1 value=2>
+<text>
+哇呀呀...乳臭未干的毛小子竟敢向我挑战!
+</text>
+<command send="exit"> </command>
+<command send="start">比武开始</command>
+</trade>
+

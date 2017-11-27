@@ -1,0 +1,10 @@
+<trade>
+<title>酒母</title>
+<image name=z56 value=160>
+<text>
+ 拿99朵白玫瑰与妖华尾巴可以换狐狸内丹
+</text>
+<command send="close">关闭</command>
+<command send="make">用白玫瑰与妖华尾巴换取狐狸内丹</command>
+</trade>
+

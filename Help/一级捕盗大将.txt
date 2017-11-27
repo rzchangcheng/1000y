@@ -1,0 +1,10 @@
+<trade>
+<title>捕盗大将</title>
+<image name=z1 value=0>
+<text>
+ 来来来.虽然现在我只是捕盗大将，但年轻时我也小有名气来着.
+</text>
+<command send="exit"> </command>
+<command send="start">比武开始</command>
+</trade>
+

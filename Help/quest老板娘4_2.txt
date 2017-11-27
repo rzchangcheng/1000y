@@ -1,0 +1,10 @@
+<q>
+<title>老板娘</title>
+<command send='q2_2_close'>关闭</command>
+<body>
+ " 这些流氓,要遭报应的.幸亏还收回点钱...这是
+   给你的,答应将一半作为酬劳..."
+
+</body>
+</q>
+

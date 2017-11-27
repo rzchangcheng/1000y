@@ -1,0 +1,5 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,用99朵白玫瑰与妖华尾巴可以换得狐狸内丹,,,,,1000,
+2,TRUE,,,,攒得很辛苦吧？来～让我瞧瞧,,,,,1314,
+3,TRUE,,,,小心感冒,,,,,1628,
+4,TRUE,,,,传授技能的NPC在长城以南的中央市场,,,,,2885,

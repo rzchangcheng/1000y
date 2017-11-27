@@ -1,0 +1,23 @@
+<q8>
+<head>
+<title>南帝王</title>
+<text>
+
+</text>
+</head>
+<command send="q8_1_close">关闭</command>
+<body>
+1. 西域魔人
+
+
+南帝王 :
+
+你到底是谁。哦……你身上有西域牌，原来你是西域魔
+人派的杀手。
+
+
+
+<a send="q8_2">[打听真相]
+</body>
+
+</q8>

@@ -1,0 +1,14 @@
+<q1>
+<head>
+<title>新手村周边环境说明</title>
+<text>
+新手村有以下的怪物与NPC, 跳点.。
+</text>
+</head>
+<command send="guide">返回</command>
+<body>
+<a send="guide2_1"> 看有关新手村怪物的讯息.
+<a send="guide2_2"> 看有关新手村NPC的讯息.。
+<a send="guide2_3"> 看有关新手村跳点的讯息.
+</body>
+</q1>

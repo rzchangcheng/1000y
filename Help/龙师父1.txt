@@ -1,0 +1,10 @@
+<trade>
+<title>龙师傅</title>
+<image name=z94 value=160>
+<text>
+ 想升到神工,至少技术得达到一定高度,
+ 能够按照书上要求的去做,你的能力就能被认可.
+</text>
+<command send="close">关闭</command>
+</trade>
+

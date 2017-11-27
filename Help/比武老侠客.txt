@@ -1,0 +1,10 @@
+<trade>
+<title>老侠客</title>
+<image name=z1 value=4>
+<text>
+ 快快有请. 何不比试一下,让老身也松松筋骨!
+</text>
+<command send="exit"> </command>
+<command send="npcstart">出招吧</command>
+</trade>
+

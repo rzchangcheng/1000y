@@ -1,0 +1,5 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,瀑布那里是移至长城以南的跳点,,,,,2000,
+2,TRUE,,,,只有10岁后才能出村到武林,,,,,2100,
+3,TRUE,,,,到了长城以南就得多加小心,,,,,2200,
+4,TRUE,,,,元气超过玄妙境以后就不能回村了,,,,,2300,

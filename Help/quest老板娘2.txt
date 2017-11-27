@@ -1,0 +1,11 @@
+<trade>
+<title>老板娘</title>
+<image name=z25 value=108>
+<text>
+ 将神秘箱子作为补偿如何?
+</text>
+<command send='close'>关闭</command>
+<command send="prize">好</command>
+<command send="dontprize">不好</command>
+</trade>
+

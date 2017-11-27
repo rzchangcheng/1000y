@@ -1,0 +1,5 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,售基本武器和飞刀、箭,,,,,1000,
+2,TRUE,,,,F1是帮助键,,,,,1250,
+3,TRUE,,,,用熊掌、白老虎指甲和犀牛王(后)角可制造墨铁战斗服,,,,,1750,
+4,TRUE,,,,用墨铁战斗服加火心和龟甲可合成墨铁弓服,,,,,2750,

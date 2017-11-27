@@ -1,0 +1,14 @@
+<q>
+<title>神医</title>
+<command send='close'></command>
+<body>
+ " 啊~ 侠客手上的可是神秘箱子! 
+如此稀罕之物是怎样弄到的!? 
+近两年我让我的弟子们找遍了武林也没能弄到,
+竟然在阁下手里. "
+
+<a send='q1_next'>[赠送]
+
+</body>
+</q>
+

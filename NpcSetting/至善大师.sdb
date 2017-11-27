@@ -1,0 +1,4 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,谁要是能帮我把他抢回来我就送给他.,,,,,2100,
+2,TRUE,,,,谁有200个熊掌、30个熊胆、100个老虎指甲.,,,,,2300,
+3,TRUE,,,,我就把佛门失传很久的上乘护体传他.,,,,,2400,

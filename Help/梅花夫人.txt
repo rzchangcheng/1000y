@@ -1,0 +1,15 @@
+<trade>
+<title>梅花夫人</title>
+<image name=z42 value=126>
+<text>
+  出售枪法武功密笈，收购枪类武器。
+  高手起码应该有个二层枪法武功密笈。
+  带属性的兵器也一并收购。
+</text>
+<command send='close'>关闭</command>
+<command send="sell">买 枪法武功密笈</command>
+<command send="buy">卖 黄龙系列武器</command>
+<command send="getquest">申请枪系绝世武功升级</command>
+<command  send="givehairpin">递上 玉簪</command>
+</trade>
+

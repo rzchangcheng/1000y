@@ -1,0 +1,11 @@
+<trade>
+<title>神医</title>
+<image name=z92 value=142>
+<text>
+ 真要转职吗?
+</text>
+<command send='close'>关闭</command>
+<command send="change"> 转职</command>
+<command send="close"> 稍加考虑</command>
+</trade>
+

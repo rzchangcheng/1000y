@@ -1,0 +1,13 @@
+<q1100>
+<title>I. 西域魔人阴谋</title>
+<command send='close'>关闭</command>
+<command send='2_1'>返回</command>
+<body>
+
+药材商 :
+
+阴阳师知道怎样制得召唤符，去找他吧。
+
+</body>
+</q1100>
+

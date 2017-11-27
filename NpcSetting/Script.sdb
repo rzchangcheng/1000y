@@ -1,0 +1,4 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,您好，我是测试专员。,,,,,1000,
+2,TRUE,,,,很高兴能为您服务。,,,,,1000,
+3,TRUE,,,,有什么指示呀？,,,,,1000,

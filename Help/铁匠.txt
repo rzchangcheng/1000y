@@ -1,0 +1,18 @@
+<trade>
+<head>
+<title>铁匠</title>
+<image name=z57 value=198>
+<text>
+ 你需要帮助吗?
+</text>
+</head>
+<command send='close'>关闭</command>
+<body>
+<a send="buy"> 卖物品
+<a send="sell"> 买武器与十字镐
+<a send="smelting"> 提炼矿物原石
+<a send="exchange"> 交换矿物
+<a send="repair"> 修理十字镐
+</body>
+</trade>
+

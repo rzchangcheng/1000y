@@ -1,0 +1,10 @@
+<q>
+<title>梅花夫人</title>
+<command send='q2_2_close'>关闭</command>
+<body>
+ " 既然忙,也没法子..
+听我唠叨半天了. 
+侠士收下这个吧,小小心意,不足挂齿. "
+</body>
+</q>
+

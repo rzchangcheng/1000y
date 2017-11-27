@@ -1,0 +1,5 @@
+No,Name,Script,NeedAge,NeedSkill,NeedItem,GiveItem,DropItem,DropMop,CallNpc,X,Y,DropX,DropY,Width,boDelay
+1,»ðÌ³1,30,,,,,,,,27,19,,,,
+2,»ðÌ³2,30,,,,,,,,20,25,,,,
+3,»ðÌ³3,30,,,,,,,,13,18,,,,
+4,»ðÌ³4,30,,,,,,,,20,12,,,,

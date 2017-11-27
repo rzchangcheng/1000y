@@ -1,0 +1,16 @@
+<q1100>
+<title>I.西域魔人阴谋</title>
+<command send='close'>关闭</command>
+<command send='2_1'>返回</command>
+<body>
+
+ 药材商 :
+
+ 据大人说，招魂要有召唤符，
+ 将符投到火炉里，两大魔头就出现了。
+ 由于停留时间有限，要尽快解决。
+
+<a send='howtogetCallticket'>[召唤符怎样才能弄到手。]
+</body>
+</q1100>
+

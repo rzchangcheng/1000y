@@ -1,0 +1,10 @@
+<trade>
+<title>雨中客</title>
+<image name=z1 value=10>
+<text>
+ 来的正好. 可愿同我共做这王陵的守护神?
+</text>
+<command send="exit"> </command>
+<command send="npcstart">出招吧</command>
+</trade>
+

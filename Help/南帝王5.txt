@@ -1,0 +1,21 @@
+<q1400>
+<head>
+<title>II. 南帝王 Quest</title>
+</head>
+
+<command send="close"> 关闭 </command>
+<body>
+
+ 南帝王 :
+
+ 石谷钥匙,帮你进入西域魔人石谷;降魔符,帮你突破机
+ 关进入魔头所在的屋里.
+
+ 拿上帝王守护灵,它是你的护身符.
+
+<a send='howtogetkey'>[询问制得石谷钥的方法.]
+<a send='howtogetticket'>[询问制得降魔符的方法.]
+
+</body>
+
+</q1400>

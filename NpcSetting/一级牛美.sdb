@@ -1,0 +1,3 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,我有漂亮的女子衣服,,,,,2100,
+2,TRUE,,,,Alt+M可调出微缩地图,,,,,2200,

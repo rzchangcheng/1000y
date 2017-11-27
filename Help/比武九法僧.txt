@@ -1,0 +1,10 @@
+<trade>
+<title>九法僧</title>
+<image name=z1 value=6>
+<text>
+ 何须多言,像你这样的货色,我一个指头就能捻死!
+</text>
+<command send="exit"> </command>
+<command send="npcstart">出招吧</command>
+</trade>
+

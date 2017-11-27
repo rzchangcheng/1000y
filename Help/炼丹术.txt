@@ -1,0 +1,11 @@
+<trade>
+<title>神医</title>
+<text>
+</text>
+<command send='close'>关闭</command>
+<body>
+炼丹术是制造多种试剂的技术,
+炼丹师用各种草药与决定其作用的药材 作各种试剂
+</body>
+</trade>
+

@@ -1,0 +1,10 @@
+<trade>
+<title>赦龙组</title>
+<image name=z1 value=7>
+<text>
+ 小心了. 我可是刀刀见血,从不手下留情的!
+</text>
+<command send="exit"> </command>
+<command send="npcstart">出招吧</command>
+</trade>
+

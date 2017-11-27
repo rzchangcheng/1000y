@@ -1,0 +1,11 @@
+<trade>
+<title>捕盗大将</title>
+<image name=z23 value=181>
+<text>
+ 阁下应该不是邪恶之徒吧? 我可不希望恶人学习绝世武功.
+</text>
+<command send='close'>关闭</command>
+<command send="getquest2">2级审核</command>
+<command send="getquest3">3级审核</command>
+</trade>
+

@@ -1,0 +1,2 @@
+RandomEventItem0.sdb：挑战西域魔人触发奖励
+RandomEventItem1.sdb：暂未开放

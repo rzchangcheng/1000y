@@ -1,0 +1,4 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,染染衣服换换心情吧,,,,,1000,
+2,TRUE,,,,将染剂拖到要染的衣物、头发上面就好，不用扔到地面,,,,,1250,
+3,TRUE,,,,身上携带的东西太多 多有不便 不如暂放到福袋里保管,,,,,1500,

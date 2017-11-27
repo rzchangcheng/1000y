@@ -1,0 +1,10 @@
+<trade>
+<title>玉仙</title>
+<image name=z40 value=141>
+<text>
+ 水... 水...请给我点水...
+</text>
+<command send='close'>关闭</command>
+<command send="givewater">给玉仙水</command>
+</trade>
+

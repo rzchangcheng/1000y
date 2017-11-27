@@ -1,0 +1,4 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,快快有请,,,,,1000,
+2,TRUE,,,,少侠能够鼎力相助 真是如虎添翼啊,,,,,2000,
+3,TRUE,,,,路上是否遇一女子 她伤势如何,,,,,3000,

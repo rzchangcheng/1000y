@@ -1,0 +1,4 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,我这儿做出的东西别人可没有,,,,,3000,
+2,TRUE,,,,不是什么人都给做的,,,,,3000,
+3,TRUE,,,,忙着呢...别靠前,,,,,3000,

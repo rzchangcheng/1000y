@@ -1,0 +1,12 @@
+<trade>
+<title>牛美</title>
+<image name=z43 value=106>
+<text>
+出售女子衣物,用两个骨头可以作成骨钥匙.
+</text>
+<command send='close'>关闭</command>
+<command send="make"> 做 骨钥匙</command>
+<command send="sell"> 买 女子衣物</command>
+<command send="buy"> 卖 技能造女子衣物</command>
+</trade>
+

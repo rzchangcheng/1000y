@@ -1,0 +1,10 @@
+<trade>
+<title>捕盗大将</title>
+<image name=z23 value=181>
+<text>出售拳法武功密笈和门派物品.
+</text>
+<command send='close'>关闭</command>
+<command send="sell_etc">买 物品</command>
+<command send="sell_best">买 绝世武功密笈</command>
+</trade>
+

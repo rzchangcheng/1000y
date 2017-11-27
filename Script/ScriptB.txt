@@ -1,0 +1,61 @@
+unit ScriptB;
+
+interface
+
+function  GetToken (aStr, aToken, aSep : String) : String;
+function  CompareStr (aStr1, aStr2 : String) : Boolean;
+function  callfunc (aText: string): string;
+procedure print (aText: string);
+function  Random (aScope: integer): integer;
+function  Length (aText: string): integer;
+procedure Inc (aInt: integer);
+procedure Dec (aInt: integer);
+function  StrToInt (astr: string): integer;
+function  IntToStr (aInt: integer): string;
+procedure exit;
+
+procedure OnDblClick(aStr : String);
+procedure OnLeftClick (aStr : String);
+procedure OnHear (aStr : String);
+
+implementation
+
+procedure OnHear (aStr : String);
+var
+   Str : String;
+   Race : Integer;
+begin
+   Str := callfunc ('getsenderrace');
+   Race := StrToInt (Str);
+   if Race = 1 then begin
+      print ('say 我听到你说话啦！');
+      exit;
+   end;
+end;
+
+procedure OnLeftClick (aStr : String);
+var
+   Str : String;
+   Race : Integer;
+begin
+   Str := callfunc ('getsenderrace');
+   Race := StrToInt (Str);
+   if Race = 1 then begin
+      Str := 'logitemwindow';
+      print (Str);
+      exit; 
+   end;
+end;
+
+procedure OnDblClick(aStr : String);
+var
+   Str : String;
+begin
+   Str := callfunc ('getsendername');
+   Str := 'sendsendertopmsg 欢迎GM[' + Str;
+   Str := Str + '],来到云端千年的武侠世界';
+   print (str);
+end;
+
+end.
+

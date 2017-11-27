@@ -1,0 +1,9 @@
+<q>
+<title>牛俊</title>
+<command send='close_1'>关闭</command>
+<body>
+ " 好!长话短说.要按照这书札上写的,赶紧将
+ 猛兽们都赶走.这下总算可以松口气了!!" 
+</body>
+</q>
+

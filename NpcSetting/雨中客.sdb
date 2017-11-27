@@ -1,0 +1,2 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,每小时的前十分钟可以进入王陵,,,,,1000,

@@ -1,0 +1,14 @@
+<give>
+<head>
+<title>僧侣</title>
+<image name=z26 value=56>
+<text>
+需要金月魂吗？可以使用其它月魂在我这里兑换。 
+</text>
+</head>
+<command send='close'>关闭</command>
+<command send="give_s">银月魂交换(3:1)</command>
+<command send="give_b">蓝月魂交换(2:1)</command>
+<command send="give_g">赤月魂交换(1:1)</command>
+<command send="give_r">翠月魂交换(1:2)</command>
+</give>

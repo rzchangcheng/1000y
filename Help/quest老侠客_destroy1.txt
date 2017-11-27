@@ -1,0 +1,11 @@
+<trade>
+<title>老侠客</title>
+<image name=z24 value=144>
+<text>
+八卦牌?
+</text>
+<command send='close'>关闭</command>
+<command send='yes'>打碎</command>
+<command send='no'>保留</command>
+</trade>
+

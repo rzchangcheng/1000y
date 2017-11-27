@@ -1,0 +1,5 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,只有40岁以下的玩家可以出入对战场,,,,,1000,
+2,TRUE,,,,怎么.. 有胆量一试吗?,,,,,2000,
+3,TRUE,,,,就算战败了 也不要恼羞成怒 ,,,,,2500,
+4,TRUE,,,,他们都是特邀嘉宾 不得无礼,,,,,3000,

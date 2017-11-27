@@ -1,0 +1,3 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,北海的风光不错吧(^_^),,,,,2685,
+2,TRUE,,,,您好，需要北海冰玉吗？,,,,,5555,

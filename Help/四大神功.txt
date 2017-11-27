@@ -1,0 +1,11 @@
+<q>
+<title>四大神功宝典</title>
+<command send='close'>关闭</command>
+<body>
+<a send='protect1'>血天魔功
+<a send='protect2'>日月神功
+<a send='protect3'>北冥神功
+<a send='protect4'>紫霞神功
+</body>
+</q>
+

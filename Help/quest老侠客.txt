@@ -1,0 +1,13 @@
+<trade>
+<title>老侠客</title>
+<image name=z24 value=144>
+<text>
+老朽的孙女什么时候才能恢复笑容啊.
+</text>
+<command send='close'>关闭</command>
+<command send='quest'>取得书札</command>
+<command send='pendent'>递上玩具</command>
+<command send='destroy1'>打碎八卦牌</command>
+<command send='destroy2'>毁坏不羁浪人武器</command>
+</trade>
+

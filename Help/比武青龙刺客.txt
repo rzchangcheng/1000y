@@ -1,0 +1,10 @@
+<trade>
+<title>青龙刺客</title>
+<image name=z1 value=8>
+<text>
+ 哈哈. 见识一下我的太极斧吧,我可不会手下留情的!
+</text>
+<command send="exit"> </command>
+<command send="npcstart">出招吧</command>
+</trade>
+

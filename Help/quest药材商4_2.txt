@@ -1,0 +1,16 @@
+<q>
+<title>药材商</title>
+<command send='close'></command>
+<body>
+"你看看我这体格背着这些东西多不容易。
+我要扛着它到长城以南的3个村子做生意，
+给各地药材商供货.如果不及时送到,
+我这几年良好的信誉就会毁之一旦.
+不知侠士可否愿意帮小生代劳? "
+
+<a send='deliver'>[接受]
+<a send='rejection'>[拒绝]
+
+</body>
+</q>
+

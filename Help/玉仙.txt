@@ -1,0 +1,12 @@
+<trade>
+<title>玉仙</title>
+<image name=z40 value=141>
+<text>
+完成帝王石谷任务中,进行得不顺利，可以初始化.
+一旦初始化,西域魔人的任务就要全部重新开始.
+不灭戒指也会消失.
+</text>
+<command send='close'>关闭</command>
+<command send="initial">帝王石谷任务初始化</command>
+</trade>
+

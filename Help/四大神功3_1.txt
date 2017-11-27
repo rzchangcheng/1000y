@@ -1,0 +1,16 @@
+<q>
+<title>四大神功宝典</title>
+<command send='close'>关闭</command>
+<command send='before3'>返回</command>
+<body>
+做'石大王内丹'宝典所需的材料.
+<a send='material3_1_1'>石大王魂 10个
+
+<a send='material3_1_2'>制造试剂 1个
+
+<a send='material3_1_3'>武魂丹 1个
+
+<a send='material3_1_4'>熔合石 20个
+</body>
+</q>
+

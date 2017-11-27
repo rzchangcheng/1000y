@@ -1,0 +1,13 @@
+<trade>
+<title>玉仙</title>
+<image name=z40 value=141>
+<text>
+ 啊, 谢谢. 小女子在寻回被忍王一伙儿盗取的
+ 新罗的遗物时,中了暗器身负重伤.现在好多了...
+ 不知您是否能帮助我,替我继续完成我的使命...
+ 侠客的大恩我必将铭记在心!
+</text>
+<command send='close'>关闭</command>
+<command send="favor">接受委托</command>
+</trade>
+

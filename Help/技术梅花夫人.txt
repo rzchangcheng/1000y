@@ -1,0 +1,20 @@
+<trade>
+<title>梅花夫人</title>
+<image name=z42 value=126>
+<text>
+ 专业裁缝 梅花夫人
+ 需要帮助吗？
+</text>
+<command send='close'>关闭</command>
+<body>
+<a send="salebuy"> 卖 裁缝制品
+<a send="salesell"> 买 裁缝制品
+<a send="designer"> 成为裁缝
+<a send="reqchange"> 转职为裁缝
+<a send="jobhelp"> 请教裁剪术
+<a send="virtueman"> 选神工之路
+</body>
+</trade>
+
+
+

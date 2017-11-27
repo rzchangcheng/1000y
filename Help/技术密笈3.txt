@@ -1,0 +1,13 @@
+<paper>
+<head>
+<title>裁缝物品制造</title>
+<text>
+</text>
+</head>
+<command send='close'>关闭</command>
+<body>
+一千年前，传说中的裁缝神工[方士严],用毕生经历作出太级线，
+据史料记载太级线是四大技术名人努力的结晶．
+四合为一作出太极线,成为世人注目的神工.
+</body>
+</paper>

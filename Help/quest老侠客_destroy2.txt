@@ -1,0 +1,11 @@
+<trade>
+<title>老侠客</title>
+<image name=z24 value=144>
+<text>
+要毁掉不羁浪人武器吗?
+</text>
+<command send='close'>关闭</command>
+<command send='yesweapon'>要</command>
+<command send='noweapon'>不要</command>
+</trade>
+

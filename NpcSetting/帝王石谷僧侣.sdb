@@ -1,0 +1,2 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,TRUE,,,别看我这身打扮，什么都瞒不过我的眼睛,,,,,1000,

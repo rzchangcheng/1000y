@@ -1,0 +1,12 @@
+<trade>
+<title>神医</title>
+<image name=z92 value=142>
+<text>
+正在研制新药,遇到了些问题.不知您来有何贵干? 
+</text>
+<command send='close'>关闭</command>
+<command send='quest'> 递上 药材商书札</command>
+<command send='snowflower'>递上 雪花</command>
+<command send='sell'>买 物品</command>
+</trade>
+

@@ -1,0 +1,15 @@
+<q>
+<title>四大神功宝典</title>
+<command send='close'>关闭</command>
+<command send='before'>返回</command>
+<body>
+做'日月神功'宝典所需的材料.
+
+<a send='material2_1'>东海野兽王内丹 1个
+
+<a send='material2_2'>死者灵魂 5个
+
+<a send='material1_3'>无字天书 1个
+</body>
+</q>
+

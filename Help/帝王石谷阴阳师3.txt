@@ -1,0 +1,16 @@
+<q1100>
+<head>
+<title>阴阳师</title>
+</head>
+<command send='close'>关闭</command>
+<command send='before'>返回</command>
+<body>
+
+做召唤符要有淋上胎儿血的小佛。
+以前每个村子的村口都会立个石像，
+下面埋上小佛来驱鬼。
+
+<a send='wherebaby'>[询问小佛石像的位置。]
+</body>
+</q1100>
+

@@ -1,0 +1,14 @@
+<trade>
+<title>龙师傅</title>
+<image name=z94 value=160>
+<text>
+我是追逐古代遗迹的侠客，你需要记载如何升为神工的卷轴书吗？
+是有代价的,付12个金元吧！
+</text>
+<command send="close">关闭</command>
+<command send="rollpaper">出12个金元 得到信息</command>
+<command send="virtueman">递上我所要求做出的物品</command>
+</trade>
+
+
+

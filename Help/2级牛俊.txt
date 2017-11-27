@@ -1,0 +1,10 @@
+<trade>
+<title>牛俊</title>
+<image name=z1 value=2>
+<text>
+ 你真是出生牛犊不怕虎啊!胆敢与我较量.
+</text>
+<command send="exit"> </command>
+<command send="npcstart">出招吧</command>
+</trade>
+

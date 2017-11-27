@@ -1,0 +1,9 @@
+<q>
+<title>梅花夫人</title>
+<command send='q2_1_close'>关闭</command>
+<body>
+ "谢谢.这是记有那些山贼情况的书札.找到玉簪后
+  请务必拿给我妹妹"
+</body>
+</q>
+

@@ -1,0 +1,17 @@
+<q1400>
+<head>
+<title>II. 南帝王 Quest</title>
+</head>
+
+<command send="close"> 关闭 </command>
+<command send='howtogoin'> 返回 </command>
+<body>
+
+ 南帝王 :
+
+ 石谷钥匙用蝎子尾巴和金毛狮甲做成.
+ 详细部分要向铁匠请教.
+
+</body>
+
+</q1400>

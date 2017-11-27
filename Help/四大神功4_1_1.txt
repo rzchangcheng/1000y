@@ -1,0 +1,11 @@
+<q>
+<title>四大神功全集</title>
+<command send='close'>关闭</command>
+<command send='before4_1'>返回</command>
+<body>
+'四臂金刚魂' 线索资料
+
+可以从王陵3的四臂金刚身上获得。
+</body>
+</q>
+

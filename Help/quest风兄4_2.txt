@@ -1,0 +1,13 @@
+<q>
+<title>风兄</title>
+<command send='close'></command>
+<body>
+ "用这种布料能做非常好的衣服.阁下如果有空儿,
+ 能否替我走一趟,看看北方魔人身上是不是真出这
+ 东西,如果真出,请帮我带回20个布条吧. "
+
+<a send='getcloth'>[答应]
+<a send='rejection'>[拒绝]
+</body>
+</q>
+

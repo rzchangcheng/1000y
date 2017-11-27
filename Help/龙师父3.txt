@@ -1,0 +1,10 @@
+<trade>
+<title>龙师傅</title>
+<image name=z94 value=160>
+<text>
+老兄，你不已经是神工了吗！
+别将力气消耗在这儿，回去制造特级物品去吧
+</text>
+<command send="close">关闭</command>
+</trade>
+

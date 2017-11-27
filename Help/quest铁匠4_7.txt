@@ -1,0 +1,11 @@
+<q>
+<title>铁匠</title>
+<image name=z57 value=198>
+<text>
+ " 书札上的东西一样儿都不能缺.继续努力吧 "
+</text>
+<command send='q2_4_close'>关闭</command>
+<command send='continue'>[继续]</command>
+<command send='giveup'>[放弃]</command>
+</q>
+

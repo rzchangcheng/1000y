@@ -1,0 +1,11 @@
+<trade>
+<title>捕盗大将</title>
+<image name=z23 value=181>
+<text>
+忍者脱逃是我捕盗大将生涯中最耻辱的事了. 
+</text>
+<command send='close'>关闭</command>
+<command send="quest">递上梅花夫人书札</command>
+<command send="fetter">拿出脚镣</command>
+</trade>
+

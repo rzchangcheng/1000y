@@ -1,0 +1,13 @@
+<trade>
+<title>梅花夫人</title>
+<text>
+</text>
+<command send='close'>关闭</command>
+<body>
+裁剪术是制造衣物的技术。
+裁缝用皮和决定硬度的石灰质和
+决定其特性的金属/宝石/岩石，
+还有将它们融合到一块儿的水石。
+</body>
+</trade>
+

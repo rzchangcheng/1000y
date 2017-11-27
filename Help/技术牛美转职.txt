@@ -1,0 +1,11 @@
+<trade>
+<title>牛美</title>
+<image name=z43 value=106>
+<text>
+ 真要转职?
+</text>
+<command send='close'>关闭</command>
+<command send="change"> 转职</command>
+<command send="close"> 稍作考虑</command>
+</trade>
+

@@ -1,0 +1,250 @@
+unit 林葛;
+
+interface
+
+function  GetToken (aStr, aToken, aSep : String) : String;
+function  CompareStr (aStr1, aStr2 : String) : Boolean;
+function  callfunc (aText: string): string;
+procedure print (aText: string);
+function  Random (aScope: integer): integer;
+function  Length (aText: string): integer;
+procedure Inc (aInt: integer);
+procedure Dec (aInt: integer);
+function  StrToInt (astr: string): integer;
+function  IntToStr (aInt: integer): string;
+procedure exit;
+
+procedure OnGetResult (aStr : String);
+procedure OnLeftClick (aStr : String);
+
+implementation
+
+procedure OnLeftClick (aStr : String);
+var
+   Str : String;
+   Race : Integer;
+begin
+   Str := callfunc ('getsenderrace');
+   Race := StrToInt (Str);
+   if Race = 1 then begin
+      Str := 'showwindow .\help\quest老板娘1.txt 1';
+      print (Str);
+      exit;
+   end;
+end;
+
+procedure OnGetResult (aStr : String);
+var
+   Str, Name : String;
+   nPower, iRandom : Integer;
+begin
+   if aStr = 'close' then begin
+      exit;
+   end;
+   if aStr = 'sell' then begin
+      Name := callfunc ('getsendername');
+      Str := 'tradewindow ' + Name;
+      Str := Str + ' 0';
+      print (Str);
+      exit;
+   end;
+   if aStr = 'buy' then begin
+      Name := callfunc ('getsendername');
+      Str := 'tradewindow ' + Name;
+      Str := Str + ' 1';
+      print (Str);
+      exit;
+   end;
+   if aStr = 'quest' then begin
+      Str := callfunc ('checkenoughspace');
+      if Str = 'false' then begin
+         print ('say 物品栏已满...');
+         exit;
+      end;
+
+      Str := callfunc ('getsenderitemexistence 神秘箱子:1');
+      if Str = 'false' then begin
+         print ('say 我忙着呢!找我做甚?');
+         exit;
+      end;
+      Str := callfunc ('checksenderattribitem 9');
+      if Str = 'true' then begin
+         print ('say 我忙着呢!找我做甚?');
+         exit;
+      end;
+
+      Str := callfunc ('getsendercurpowerlevel');
+      nPower := StrToInt (Str);
+
+      if nPower < 1 then begin
+         print ('showwindow .\help\quest老板娘2.txt 1');
+         exit;
+      end;
+
+      if nPower >= 1 then begin
+         print ('getsenderitem 神秘箱子:1');
+
+         iRandom := Random (3);
+         if iRandom = 0 then begin
+            print ('showwindow .\help\quest老板娘3.txt 0');
+            exit;
+         end;
+         if iRandom = 1 then begin
+            print ('showwindow .\help\quest老板娘4.txt 0');
+            Str := callfunc ('getsenderitemexistence 老板娘材料书札:1');
+            if Str = 'true' then begin
+               print ('say 我忙着呢!找我做甚?');
+               exit;
+            end;
+
+            print ('putsendermagicitem 老板娘材料书札:1 @quest老板娘 4');
+            exit;
+         end;
+         if iRandom = 2 then begin
+            print ('showwindow .\help\quest老板娘5.txt 0');
+            exit;
+         end;
+         exit;
+      end;
+      exit;
+   end;
+   if aStr = 'prize' then begin
+      Str := callfunc ('getsenderitemexistence 神秘箱子:1');
+      if Str = 'false' then begin
+         print ('say 我忙着呢!找我做甚?');
+         exit;
+      end;
+   
+      Str := callfunc ('checkenoughspace');
+      if Str = 'false' then begin
+         print ('say 物品栏已满...');
+         exit;
+      end;
+
+      print ('getsenderitem 神秘箱子:1');
+
+      Name := callfunc ('getquestitem 6');
+      Str := 'putsendermagicitem ' + Name;
+      Str := Str + ' @quest老板娘 4';
+      print (Str);
+
+      exit;
+   end;
+   if aStr = 'dontprize' then begin
+      Str := callfunc ('getsenderitemexistence 神秘箱子:1');
+      if Str = 'false' then begin
+         print ('say 我忙着呢!找我做甚?');
+         exit;
+      end;
+   
+      print ('getsenderitem 神秘箱子:1');
+
+      iRandom := Random (3);
+      if iRandom = 0 then begin
+         print ('showwindow .\help\quest老板娘3.txt 0');
+         exit;
+      end;
+      if iRandom = 1 then begin
+         print ('showwindow .\help\quest老板娘4.txt 0');
+         Str := callfunc ('getsenderitemexistence 老板娘材料书札:1');
+         if Str = 'true' then begin
+            print ('say 我忙着呢!找我做甚?');
+            exit;
+         end;
+
+         print ('putsendermagicitem 老板娘材料书札:1 @quest老板娘 4');
+         exit;
+      end;
+      if iRandom = 2 then begin
+         print ('showwindow .\help\quest老板娘5.txt 0');
+         exit;
+      end;
+      exit;
+   end;
+   if aStr = 'q1_close' then begin
+      Str := callfunc ('getsenderitemexistence 神秘箱子:1');
+      if Str = 'false' then begin
+         print ('say 我忙着呢!找我做甚?');
+         exit;
+      end;
+   
+      Str := callfunc ('checkenoughspace');
+      if Str = 'false' then begin
+         print ('say 物品栏已满...');
+         exit;
+      end;
+
+      print ('getsenderitem 神秘箱子:1');
+
+      Name := callfunc ('getquestitem 7');
+      Str := 'putsendermagicitem ' + Name;
+      Str := Str + ' @quest老板娘 4';
+      print (Str);
+      exit;
+   end;
+   if aStr = 'getpaper' then begin
+      print ('showwindow .\help\quest老板娘4_1.txt 0');      
+      exit;
+   end;
+   if aStr = 'goback' then begin
+      print ('getsenderitem 老板娘材料书札:1');
+      print ('say 我忙着呢!找我做甚?');   
+      exit;
+   end;
+   if aStr = 'q2_1_close' then begin
+      exit;
+   end;
+   if aStr = 'q2_2_close' then begin
+      print ('putsendermagicitem 金元:10 @quest老板娘 4');
+      exit;
+   end;
+   if aStr = 'continue' then begin
+      exit;
+   end;
+   if aStr = 'giveup' then begin
+      print ('getsenderitem 老板娘材料书札:1');            
+      exit;
+   end;
+   if aStr = 'q3_close' then begin
+      Str := callfunc ('checkenoughspace');
+      if Str = 'false' then begin
+         print ('say 物品栏已满...');
+         exit;
+      end;
+      Str := callfunc ('getsenderitemexistence 老板娘书札:1');
+      if Str = 'true' then begin
+         print ('say 我忙着呢!找我做甚?');
+         exit;
+      end;
+
+      print ('putsendermagicitem 老板娘书札:1 @quest老板娘 4');      
+      exit;
+   end;   
+
+   if aStr = 'paper' then begin
+      Str := callfunc ('checkenoughspace');
+      if Str = 'false' then begin
+         print ('say 物品栏已满...');
+         exit;
+      end;
+
+      Str := callfunc ('getsenderitemexistence 老板娘材料书札:1');
+      if Str = 'false' then begin
+         print ('say 我忙着呢!找我做什么呢?');
+         exit;
+      end;
+
+      Str := callfunc ('getsenderitemexistence 帐本:1');
+      if Str = 'false' then begin
+         print ('showwindow .\help\quest老板娘4_3.txt 1');
+         exit;
+      end;
+
+      print ('getsenderitem 老板娘材料书札:1');
+      print ('getsenderitem 帐本:1');
+      print ('showwindow .\help\quest老板娘4_2.txt 0');
+      exit;
+   end;
+end;
+
+end.

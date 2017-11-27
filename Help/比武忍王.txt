@@ -1,0 +1,10 @@
+<trade>
+<title>忍王</title>
+<image name=z1 value=5>
+<text>
+这位勇士有挑战的勇气,却不知有没有必胜的信心呢?来试试!
+</text>
+<command send="exit"> </command>
+<command send="npcstart">出招吧</command>
+</trade>
+

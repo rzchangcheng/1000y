@@ -1,0 +1,21 @@
+Name,AddBodyDamage,ApproachAccuracy,ApproachAvoid,BasicValueDec,ApproachLegArmor,BowLegArmor,ApproachKeepRecovery,ApproachArmArmor,HandSpeed,HandAccuracy,BowAttackSpeed,BowAccuracy,BowKeepRecovery,BowAvoid,BowBodyArmor,BowHeadArmor,BowArmArmor,HandKeepRecovery,HandMinValue,HandMaxValue,HandBodyArmor,ApproachSpeed,ApproachBodyArmor,ApproachHeadArmor,AddHeadDamage,AddArmDamage,AddLegDamage,EnergyRegenDec,desc
+0,,3,,,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+1,15,,,,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+2,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+3,,,3,,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+4,,6:6,,,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+5,42,,,,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+6,,6:6,,10,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+7,,6:6,3,,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+8,57,2,,,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+9,57,,2,,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+10,63,,,10,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+11,68,3,,,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+12,63,6:6,,,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+13,78:3,,3,,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+14,89:3,1,,6,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+15,63,6:6,3,,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+16,73,6:6,,8,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+17,99:5,2,2,,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+18,84:3,6:6,,10,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类
+19,105:7,3,3,,,,,,,,,,,,,,,,,,,,,,,,,,五道家 护腕类

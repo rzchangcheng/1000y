@@ -1,0 +1,4 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,TRUE,,,廉价出售进入极乐洞的书札。,,,,,1000,
+2,TRUE,TRUE,,,买书札请点击我,,,,,1714,
+3,TRUE,,,,技术NPC都在长城以南的中央市场上。,,,,,2428,

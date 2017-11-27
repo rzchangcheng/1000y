@@ -1,0 +1,12 @@
+<trade>
+<title>风兄</title>
+<text>
+</text>
+<command send='close'>关闭</command>
+<body>
+冶炼术是制造多种装备的技术 
+工匠用皮和决定硬度的石灰质和决定其特性的金属/宝石/岩石，
+还有将它们融合到一儿块的水石.
+</body>
+</trade>
+

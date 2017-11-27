@@ -1,0 +1,11 @@
+<trade>
+<title>梅花夫人</title>
+<image name=z42 value=126>
+<text>
+ 神秘箱子作为酬劳如何?
+</text>
+<command send='close'>关闭</command>
+<command send="prize">好的</command>
+<command send="dontprize">不了</command>
+</trade>
+

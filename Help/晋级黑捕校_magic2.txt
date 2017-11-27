@@ -1,0 +1,12 @@
+<trade>
+<title>黑捕校</title>
+<image name=z22 value=140>
+<text>
+ 出售绝世武功密笈.
+</text>
+<command send='close'>关闭</command>
+<command send="best1">买 玉霄剑法</command>
+<command send="best2">买 六脉神剑</command>
+<command send="best3">买 金蛇剑法</command>
+</trade>
+

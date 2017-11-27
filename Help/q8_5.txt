@@ -1,0 +1,14 @@
+<q8>
+<head>
+<title>南帝王</title>
+</head>
+<command send="q8_close">关闭</command>
+<body>
+南帝王:
+
+进入西域魔人所在石谷，必须要带石谷钥匙和降魔符。
+带上这个，此乃帝王守护灵，是护身符。
+
+<a send="q8_6">[询问有关降魔符的详细讯息]
+</body>
+</q8>

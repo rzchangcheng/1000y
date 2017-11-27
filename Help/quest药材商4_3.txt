@@ -1,0 +1,9 @@
+<q>
+<title>药材商</title>
+<command send='q2_1_close'>关闭</command>
+<body>
+ " 这正是我拜托他帮我弄的材料. 呵呵~那药材商果然言而有信... "
+
+</body>
+</q>
+

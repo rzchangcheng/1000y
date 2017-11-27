@@ -1,0 +1,4 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,我卖男子衣服,,,,,1000,
+2,TRUE,,,,还做骨钥匙,,,,,1275,
+3,TRUE,,,,有需要请点击我,,,,,1550,

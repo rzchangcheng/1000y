@@ -1,0 +1,12 @@
+<trade>
+<title>梅花夫人</title>
+<image name=z42 value=126>
+<text>
+ 出售绝世武功密笈.
+</text>
+<command send='close'>关闭</command>
+<command send="best1">买 凤凰雷电戟</command>
+<command send="best2">买 昭巫枪法</command>
+<command send="best3">买 乌龙索命枪</command>
+</trade>
+

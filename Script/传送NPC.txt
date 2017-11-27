@@ -1,0 +1,81 @@
+unit 传送;
+
+interface
+
+function  GetToken (aStr, aToken, aSep : String) : String;
+function  CompareStr (aStr1, aStr2 : String) : Boolean;
+function  callfunc (aText: string): string;
+procedure print (aText: string);
+function  Random (aScope: integer): integer;
+function  Length (aText: string): integer;
+procedure Inc (aInt: integer);
+procedure Dec (aInt: integer);
+function  StrToInt (astr: string): integer;
+function  IntToStr (aInt: integer): string;
+procedure exit;
+
+procedure OnGetResult (aStr : String);
+procedure OnLeftClick (aStr : String);
+procedure OnDblClick(aStr : String);
+
+implementation
+
+procedure OnDblClick(aStr : String);
+var
+   Str, Name : String;
+   Race : Integer;
+begin
+   Str := callfunc ('getsenderrace');
+   Race := StrToInt (Str);
+   if Race = 1 then begin
+      Name := callfunc ('getsendername');
+      //Str := 'movespacebyname ' + Name;
+      //Str := Str + ' user 1 165 775 密室太极老人 npc 300';
+      //print (Str);
+      //Str := callfunc('getsenderid');
+	  Str := 'sendsenderchatmessage ' + Name;
+	  Str := Str + ' 1';
+	  print (Str);
+      //Str := 'showwindow .\help\车夫.txt 1';
+      //print (Str);
+      exit; 
+      exit; 
+   end;
+end;
+
+procedure OnLeftClick(aStr : String);
+var
+   Str : String;
+   Race : Integer;
+begin
+   Str := callfunc ('getsenderrace');
+   Race := StrToInt (Str);
+   if Race = 1 then begin
+      Str := 'showwindow .\help\车夫.txt 1';
+      print (Str);
+      exit; 
+   end;
+end;
+
+procedure OnGetResult (aStr : String);
+var
+   Str, Name : String;
+begin
+   if aStr = 'close' then begin
+      exit;
+   end;
+   if aStr = 'yes' then begin
+      Str := callfunc('getsenderid');
+	  Str := 'sendsenderchatmessage ' + Str;
+	  Str := Str + ' 2';
+	  print (Str);
+      exit;
+   end;
+   if aStr = 'test' then begin
+	  Str := 'logitemwindow';
+      print (Str);
+      exit;
+   end;
+end;
+
+end.

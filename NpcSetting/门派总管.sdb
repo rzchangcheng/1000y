@@ -1,0 +1,4 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,你好，欢迎回到门派。,,,,,1000,
+2,TRUE,,,,本门玩家可以在我这领取福利哦。,,,,,2000,
+3,TRUE,,,,我这里也会收购和出售一些物品。,,,,,3000,

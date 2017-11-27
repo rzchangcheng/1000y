@@ -1,0 +1,12 @@
+<trade>
+<title>太极老人</title>
+<image name=z81 value=235>
+<text>
+把令牌交给我.我领你去见太极公子
+</text>
+<command send='close'>关闭</command>
+<command send="goroom">交 令牌</command>
+<command send="changeweapon">交换太极明珠</command>
+<command send="giveticket">给太极书札</command>
+</trade>
+

@@ -1,0 +1,9 @@
+<q>
+<title>捕盗大将</title>
+<command send='close_1'>关闭</command>
+<body>
+ " 好吧.那就请尽快解决了忍者,将凭证带回.. 
+那些家伙在潜逃时还带着脚镣,应该不难辨认. "
+</body>
+</q>
+

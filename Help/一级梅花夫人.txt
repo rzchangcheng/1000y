@@ -1,0 +1,10 @@
+<trade>
+<title>梅花夫人</title>
+<image name=z1 value=1>
+<text>
+ 哈哈,年纪轻轻,输得太惨会不会一蹶不振呀...
+</text>
+<command send="exit"> </command>
+<command send="start">比武开始</command>
+</trade>
+

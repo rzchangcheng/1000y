@@ -1,0 +1,12 @@
+<q>
+<title>四大神功宝典</title>
+<command send='close'>关闭</command>
+<command send='before1_1'>返回</command>
+<body>
+'熔合石' 线索资料
+
+长城以南中央市场的'老板娘'处有卖.
+
+</body>
+</q>
+

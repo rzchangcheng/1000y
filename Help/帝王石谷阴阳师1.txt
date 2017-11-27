@@ -1,0 +1,9 @@
+<q1100>
+<title>阴阳师</title>
+<image name=z55 value=157>
+<text>终于来活儿了，说吧，愿意为您效劳。</text>
+<command send='close'>关闭</command>
+<command send='aboutticket'>有关召唤符的制法</command>
+<command send='maketicket'>做召唤符</command>
+</q1100>
+

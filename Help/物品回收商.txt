@@ -1,0 +1,10 @@
+<trade>
+<title>物品回收商</title>
+<image name=z42 value=126>
+<text>
+我的责任是将三叉剑兑换成三叉戟
+</text>
+<command send='close'>关闭</command>
+<command send="changeweapon">兑换物品</command>
+</trade>
+

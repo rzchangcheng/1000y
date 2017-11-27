@@ -1,0 +1,19 @@
+<trade>
+<title>神医</title>
+<image name=z92 value=142>
+<text>
+ 专业炼丹师 神医
+ 需要帮助吗?
+</text>
+<command send='close'>关闭</command>
+<body>
+<a send='salebuy'> 卖炼丹术制造出的物品
+<a send='salesell'> 买炼丹术制造出的物品
+<a send='chemist'> 成为炼丹师
+<a send='reqchange'> 要求转职为炼丹师
+<a send="jobhelp"> 请教炼丹术
+<a send="processhelp"> 询问有关加工事宜
+<a send='virtueman'> 迈向神工之任务
+</body>
+</trade>
+

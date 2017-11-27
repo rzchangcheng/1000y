@@ -1,0 +1,10 @@
+<trade>
+<title>雨中客</title>
+<image name=z47 value=136>
+<text>
+ 请用玉玺与新罗金冠换取磐龙斧.
+</text>
+<command send='close'>关闭</command>
+<command send="makeax">交换磐龙斧</command>
+</trade>
+

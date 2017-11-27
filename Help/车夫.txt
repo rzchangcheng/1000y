@@ -1,0 +1,10 @@
+<trade>
+<title>车夫</title>
+<image name=z81 value=235>
+<text>
+公共交通，通票1000，确定买票吗？
+</text>
+<command send='close'>关闭</command>
+<command send='yes'>传送</command>
+<command send='test'>宝库</command>
+</trade>

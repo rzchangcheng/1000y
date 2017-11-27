@@ -1,0 +1,6 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,欢迎你到真正的武林中来,,,,,1000,
+2,TRUE,,,,需要护体/步法/弓术类武功吗?,,,,,1244,
+3,TRUE,,,,,,,,,1488,
+4,TRUE,,,,有什么不明白的，请F1键 。F1是帮助键,,,,,1733,
+5,TRUE,,,,买卖、共享账号导致的一系列问题不作处理。,,,,,3200,

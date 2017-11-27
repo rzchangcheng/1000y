@@ -1,0 +1,12 @@
+<trade>
+<title>牛美</title>
+<text>
+</text>
+<command send='close'>关闭</command>
+<body>
+制炼武器的技术,透过铸造术可以制造出多样武器,
+这需要有决定基本强度的铁矿与皮革与决定其特性的
+宝石/金属/岩石,最后还需要将此类材料融合的水石.
+</body>
+</trade>
+

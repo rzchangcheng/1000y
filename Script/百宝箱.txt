@@ -1,0 +1,91 @@
+unit 百宝箱;
+
+interface
+
+function  GetToken (aStr, aToken, aSep : String) : String;
+function  CompareStr (aStr1, aStr2 : String) : Boolean;
+function  callfunc (aText: string): string;
+procedure print (aText: string);
+function  Random (aScope: integer): integer;
+function  Length (aText: string): integer;
+procedure Inc (aInt: integer);
+procedure Dec (aInt: integer);
+function  StrToInt (astr: string): integer;
+function  IntToStr (aInt: integer): string;
+procedure exit;
+
+procedure OnDie (aStr : String);
+
+implementation
+
+procedure OnDie (aStr : String);
+var
+   Str, Name, Cmd : String;
+   iCount : Integer;
+begin
+   Name := callfunc ('getsendername');
+   Str := callfunc ('getsenderitemexistence 传送金符:1');
+   if Str = 'false' then begin
+      Str := callfunc ('getsenderitemexistence 传送玉符:1');
+      if Str = 'false' then begin
+	     Str := callfunc ('getsenderitemexistence 传送银符:1');
+         if Str = 'false' then begin		 
+            print ('sendsenderchatmessage …这个宝箱好像是空的… 1');
+            exit;
+	     end;
+		 Str := callfunc ('checkenoughspace');
+         if Str = 'false' then begin
+            print ('say 您的物品栏已满~');
+            exit;
+         end;
+		 iCount := Random(20);
+         if iCount = 0 then Str := '冰玉:1';
+         if iCount > 0 then Str := callfunc ('getrandomitem 4');
+         print ('getsenderitem 传送银符:1');
+         Cmd := 'putsendermagicitem ' + Str;
+         Cmd := Cmd +' @百宝箱 4';
+         print(Cmd);
+         Cmd := 'sendsendertopmsg ' + Name;
+         Cmd := Cmd + '_打开宝箱,获得_';
+         Cmd := Cmd + Str;
+         print (Cmd);
+         exit;
+      end;
+      Str := callfunc ('checkenoughspace');
+      if Str = 'false' then begin
+         print ('say 您的物品栏已满~');
+         exit;
+      end;
+      iCount := Random(4);
+      if iCount = 0 then Str := '翡翠';
+      if iCount = 1 then Str := '琥珀';
+      if iCount = 2 then Str := '水晶';
+      if iCount = 3 then Str := '珍珠';
+      if iCount = 4 then Str := '传送玉符';
+      print ('getsenderitem 传送玉符:1');
+      Cmd := 'putsendermagicitem ' + Str;
+      Cmd := Cmd +' @百宝箱 4';
+      print(Cmd);
+      Cmd := 'sendsendertopmsg ' + Name;
+      Cmd := Cmd + '_打开宝箱,获得_';
+      Cmd := Cmd + Str;
+      Cmd := Cmd + '_一个';
+      print (Cmd);
+      exit;
+   end;
+   Str := callfunc ('checkenoughspace 4');
+   if Str = 'false' then begin
+      print ('say 物品栏至少保留四个空位~');
+      exit;
+   end;
+   print ('getsenderitem 传送金符:1');
+   print ('putsendermagicitem 水晶:1 @百宝箱 4');
+   print ('putsendermagicitem 珍珠:1 @百宝箱 4');
+   print ('putsendermagicitem 翡翠:1 @百宝箱 4');
+   print ('putsendermagicitem 琥珀:1 @百宝箱 4');
+   Cmd := 'sendsendertopmsg ' + Name;
+   Cmd := Cmd + '_打开宝箱,获得一堆宝石';
+   print (Cmd);
+end;
+
+end.

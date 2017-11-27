@@ -1,0 +1,5 @@
+Name,boSelfSay,boMain,MainNumber,HearString,SayString,NeedItem,GiveItem,CountLimit,RecoverTime,DelayTime,
+1,TRUE,,,,欢迎您来到千年游戏世界。,,,,,2000,
+2,TRUE,,,,游戏的有关事项请找向导,,,,,2444,
+3,TRUE,,,,请时常打开公告栏来看看,,,,,2888,
+4,TRUE,,,,请问你需要什么药品吗？,,,,,3333,

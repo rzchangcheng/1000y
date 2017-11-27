@@ -1,0 +1,14 @@
+<trade>
+<head>
+<title>风兄</title>
+<image name=z54 value=133>
+<text>
+ 您要转职吗?
+</text>
+<command send='close'> 关闭</command>
+<command send="change"> 转职</command>
+<command send="close"> 稍作考虑</command>
+</trade>
+
+
+

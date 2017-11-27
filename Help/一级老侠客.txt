@@ -1,0 +1,10 @@
+<trade>
+<title>老侠客</title>
+<image name=z1 value=4>
+<text>
+ 有请,喝杯茶再上路吧.
+</text>
+<command send="exit"> </command>
+<command send="start">比武开始</command>
+</trade>
+

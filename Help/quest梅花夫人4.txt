@@ -1,0 +1,14 @@
+<q>
+<title>梅花夫人</title>
+<command send='close'></command>
+<body>
+ " 我是中央市场的梅花夫人,
+最近我那个住在双花店的妹妹可让我伤透了脑筋.
+她非常喜欢的发簪在路上被山贼给抢了.这可如何是好.
+阁下能否替我找回妹妹的发簪,那就太感谢了."
+
+<a send='findhairpin'>[答应帮着找玉簪]
+<a send='rejection'>[拒绝]
+</body>
+</q>
+

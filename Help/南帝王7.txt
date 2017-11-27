@@ -1,0 +1,17 @@
+<q1400>
+<head>
+<title>II. 南帝王 Quest</title>
+</head>
+
+<command send="close"> 关闭 </command>
+<command send="howtogoin"> 返回 </command>
+<body>
+
+ 南帝王 :
+
+ 降魔符帮你突破西域魔人设的机关,
+ 通向她所在的空间.具体做法要请教阴阳师.
+
+</body>
+
+</q1400>

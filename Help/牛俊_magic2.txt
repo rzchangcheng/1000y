@@ -1,0 +1,11 @@
+<trade>
+<title>牛俊</title>
+<image name=z19 value=132>
+<text>
+ 出售绝世武功.
+</text>
+<command send='close'>关闭</command>
+<command send="best1">买 蓉沼抉</command>
+<command send="best2">买 五狐断刎槌</command>
+</trade>
+

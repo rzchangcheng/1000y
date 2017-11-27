@@ -1,0 +1,10 @@
+<trade>
+<title>老人</title>
+<image name=z110 value=94>
+<text>
+ 我有什么可以帮您的嘛
+</text>
+<command send='close'>关闭</command>
+<command send="sell">买 物品</command>
+</trade>
+
