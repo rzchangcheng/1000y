@@ -1,9 +1,3 @@
-Dump
-Guild
-Itemlog
-Log
-MacroData
-Smp
 badipaddr.txt
 DontChar.txt
 notice.txt
@@ -14,6 +8,3 @@ Sysop.Sdb
 *.dll
 *.BIN
 *.LOG
-*.ini
-*.acs
-*.tbl
