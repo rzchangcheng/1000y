@@ -60,44 +60,44 @@ begin
       Str := callfunc ('getsenderfirstquest');
       FirstQuest := StrToInt (Str);
       if FirstQuest < 2 then begin
-         Str := callfunc ('getsenderitemexistence 金元:50');
+         Str := callfunc ('getsenderitemexistence 金元:100');
          if Str = 'false' then begin
-            print ('say 未进行新手村挑战，需交纳50金元手续费。');
+            print ('say 未进行新手村挑战，需交纳100金元证明你的实力。');
             exit;
          end;
-         print ('getsenderitem 金元:50');
+         print ('getsenderitem 金元:100');
       end;
       if FirstQuest = 2 then begin
+         Str := callfunc ('getsenderitemexistence 金元:80');
+         if Str = 'false' then begin
+            print ('say 新手村挑战仅过一关，需交纳80金元证明你的实力。');
+            exit;
+         end;
+         print ('getsenderitem 金元:80');
+      end;
+      if FirstQuest = 3 then begin
+         Str := callfunc ('getsenderitemexistence 金元:60');
+         if Str = 'false' then begin
+            print ('say 新手村挑战仅过二关，需交纳60金元证明你的实力。');
+            exit;
+         end;
+         print ('getsenderitem 金元:60');
+      end;
+      if FirstQuest = 4 then begin
          Str := callfunc ('getsenderitemexistence 金元:40');
          if Str = 'false' then begin
-            print ('say 新手村挑战仅过一关，需交纳40金元手续费。');
+            print ('say 新手村挑战仅过三关，需交纳40金元证明你的实力。');
             exit;
          end;
          print ('getsenderitem 金元:40');
       end;
-      if FirstQuest = 3 then begin
-         Str := callfunc ('getsenderitemexistence 金元:30');
-         if Str = 'false' then begin
-            print ('say 新手村挑战仅过二关，需交纳30金元手续费。');
-            exit;
-         end;
-         print ('getsenderitem 金元:30');
-      end;
-      if FirstQuest = 4 then begin
+      if FirstQuest = 5 then begin
          Str := callfunc ('getsenderitemexistence 金元:20');
          if Str = 'false' then begin
-            print ('say 新手村挑战仅过三关，需交纳20金元手续费。');
+            print ('say 新手村挑战未通关，需交纳20金元证明你的实力。');
             exit;
          end;
          print ('getsenderitem 金元:20');
-      end;
-      if FirstQuest = 5 then begin
-         Str := callfunc ('getsenderitemexistence 金元:10');
-         if Str = 'false' then begin
-            print ('say 新手村挑战未通关，需交纳10金元手续费。');
-            exit;
-         end;
-         print ('getsenderitem 金元:10');
       end;
 
       //任务参数由原版的queststr调整为firstquest
