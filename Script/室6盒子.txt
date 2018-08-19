@@ -1,4 +1,4 @@
-unit 'Ъв6Казг';
+unit Ъв6Казг;
 
 interface
 
