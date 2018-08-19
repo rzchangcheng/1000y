@@ -32,7 +32,7 @@ begin
    print ('boiceallbyname 室7四臂金刚 monster true');
    print ('boiceallbyname 室7护卫武士 monster true');
    print ('bohitallbyname 室7四臂金刚 monster false');
-   print ('bohitallbyname 室7护卫武士monster false');
+   print ('bohitallbyname 室7护卫武士 monster false');
 end;
 
 end.

@@ -31,7 +31,7 @@ procedure OnRegen (aStr : String);
 begin
    print ('boiceallbyname 室6四臂金刚 monster true');
    print ('boiceallbyname 室6护卫武士 monster true');
-   print ('bohitallbyname 室6四臂金刚monster false');
+   print ('bohitallbyname 室6四臂金刚 monster false');
    print ('bohitallbyname 室6护卫武士 monster false');
 end;
 

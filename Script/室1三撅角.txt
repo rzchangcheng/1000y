@@ -24,7 +24,7 @@ begin
    print ('boiceallbyname 室1四臂金刚 monster false');
    print ('boiceallbyname 室1护卫武士 monster false');
    print ('bohitallbyname 室1四臂金刚 monster true');
-   print ('bohitallbyname 室1护卫武士monster true');
+   print ('bohitallbyname 室1护卫武士 monster true');
 end;
 
 procedure OnRegen (aStr : String);
