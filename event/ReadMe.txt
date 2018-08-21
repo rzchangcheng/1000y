@@ -1,2 +1,5 @@
-RandomEventItem0.sdb：挑战西域魔人触发奖励
-RandomEventItem1.sdb：暂未开放
+Name := callfunc ('getrandomitem Int0');
+
+RandomEventItem0:新手村比武老人兑换奖励
+RandomEventItem1:中央比武老人高级兑换奖励
+

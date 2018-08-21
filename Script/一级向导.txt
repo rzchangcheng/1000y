@@ -44,7 +44,7 @@ begin
    if Race = 1 then begin
       PowerLevel := callfunc ('getsendercurpowerlevel');  //境界等级
       Lv := StrToInt (PowerLevel);
-      if Lv > 4 then begin
+      if Lv >= 4 then begin
          Name := callfunc ('getsendername');
          Str := 'say ' + Name;
          Str := Str + '，你的境界太高了，我还是送您出村吧。';
