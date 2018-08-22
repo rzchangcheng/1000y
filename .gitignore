@@ -9,3 +9,4 @@ sv1000.Ini
 *.dll
 *.BIN
 *.LOG
+.DS_Store
