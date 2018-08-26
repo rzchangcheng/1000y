@@ -102,8 +102,8 @@ begin
 
       print ('senderrefill');
 
-      print ('say领教了 50');
-      print ('say开始吧 400');
+      print ('say 领教了 50');
+      print ('say 开始吧 400');
       exit;
    end;
 end;
