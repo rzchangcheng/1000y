@@ -126,7 +126,7 @@ begin
       print (Str);
 
       print ('boMapEnter 55 false');
-	  exit;
+      exit;
    end;
 
    if aStr = 'gift' then begin
@@ -146,9 +146,9 @@ begin
          iCount := Random(5);
          if iCount = 0 then Item := '储物袋:1';
          if iCount = 1 then Item := '金元:10';
-		 if iCount = 2 then Item := '金元:20';
-		 if iCount = 3 then Item := '金元:30';
-		 if iCount = 4 then Item := callfunc ('getrandomitem 4');
+         if iCount = 2 then Item := '金元:20';
+         if iCount = 3 then Item := '金元:30';
+         if iCount = 4 then Item := callfunc ('getrandomitem 4');
       end;
       if Str = 'true' then begin
          iCount := Random(5);
@@ -157,16 +157,16 @@ begin
          if iCount = 2 then Item := '金元:20';
          if iCount = 3 then Item := '金元:30';
          if iCount = 4 then Item := callfunc ('getrandomitem 4');
-	  end;
-	  Str := 'putsendermagicitem ' + Item;
-	  Str := Str + ' @比武老人 4';
-	  print (Str);
-	  Name := callfunc ('getsendername');
-	  Str := 'sendsendertopmsg ' + Name;
-	  Str := Str + '_从_比武老人,兑换到_';
-	  Str := Str + Item;
-	  print (Str);
-	  exit;
+      end;
+      Str := 'putsendermagicitem ' + Item;
+      Str := Str + ' @比武老人 4';
+      print (Str);
+      Name := callfunc ('getsendername');
+      Str := 'sendsendertopmsg ' + Name;
+      Str := Str + '_从_比武老人,兑换到_';
+      Str := Str + Item;
+      print (Str);
+      exit;
    end;
 
 end;

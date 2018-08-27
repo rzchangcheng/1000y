@@ -21,7 +21,7 @@ procedure OnAway (aStr : String);
 procedure OnArrival (aStr : String);
 
 var
-	iCallCount : Integer = 0;
+    iCallCount : Integer = 0;
 
 implementation
 
@@ -34,7 +34,7 @@ begin
    Race := StrToInt (Str);
    if Race = 1 then begin
       print ('say 路见不平、拔剑相助，行侠仗义、除恶扬善。南无阿弥陀佛...');
-	  exit;
+      exit;
    end;
 end;
 
@@ -47,7 +47,7 @@ begin
    Race := StrToInt (Str);
    if Race = 1 then begin
       print ('say 施给僧侣，给您带来好运...');
-	  exit;
+      exit;
    end;
 end;
 
@@ -107,16 +107,16 @@ begin
             end;
 
             iKind := Random (10);
-            if iKind = 0 then Str := callfunc ('getrandomitem 2');
+            if iKind = 0 then Str := '飞龙剑法';
             if iKind = 1 then Str := '如来天王拳';
-            if iKind = 2 then Str := '飞龙剑法';
+            if iKind = 2 then Str := callfunc ('getrandomitem 2');
             if iKind = 3 then Str := '花郎斩';
             if iKind = 4 then Str := '岳家枪法';
-            if iKind = 5 then Str := '帝王槌法';
-            if iKind = 6 then Str := '女子百炼斗笠';
-            if iKind = 7 then Str := '男子百炼斗笠';
-            if iKind = 8 then Str := '男子凤凰靴';
-            if iKind = 9 then Str := '女子凤凰靴';
+            if iKind = 5 then Str := callfunc ('getrandomitem 5');
+            if iKind = 6 then Str := '女子墨铁战斗服';
+            if iKind = 7 then Str := '男子墨铁战斗服';
+            if iKind = 8 then Str := callfunc ('getrandomitem 8');
+            if iKind = 9 then Str := '帝王槌法';
             Str := 'putsendermagicitem ' + Str;
             Str := Str + ' @一级僧侣 4';
             print (Str);
